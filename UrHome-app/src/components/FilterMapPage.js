@@ -1,8 +1,10 @@
 import React from "react";
-import { Layout, Button, Input } from "antd";
-import '../styles/filterMapPageStyle.css';
+import { Layout, Button, Input, Card } from "antd";
+import "../styles/filterMapPageStyle.css";
+import { CheckOutlined,EnvironmentOutlined,EnvironmentFilled} from '@ant-design/icons';
 
-const { Header, Content, Footer, Sider } = Layout;
+const { Content, Footer, Sider } = Layout;
+const { Meta } = Card;
 
 class FilterMapPage extends React.Component {
   render() {
@@ -21,38 +23,143 @@ class FilterMapPage extends React.Component {
           <div className="search-section">
             <div className="single-search-input">
               Bedrooms
-              <Input size="small" style={{ width: "100px",marginLeft:"10px"}} />
+              <Input
+                size="small"
+                style={{ width: "100px", marginLeft: "10px" }}
+              />
             </div>
             <div className="single-search-input">
               Bathrooms
-              <Input size="small" style={{ width: "100px",marginLeft:"10px"}} />
+              <Input
+                size="small"
+                style={{ width: "100px", marginLeft: "10px" }}
+              />
             </div>
             <div className="single-search-input">
               Rent
-              <Input size="small" style={{ width: "50px",margin:"0 10px"}} />
+              <Input size="small" style={{ width: "50px", margin: "0 10px" }} />
               to
-              <Input size="small" style={{ width: "50px",margin:"0 10px"}} />
+              <Input size="small" style={{ width: "50px", margin: "0 10px" }} />
             </div>
             <div className="single-search-input">
               Home Types
-              <Input size="small" style={{ width: "100px",marginLeft:"10px"}} />
+              <Input
+                size="small"
+                style={{ width: "100px", marginLeft: "10px" }}
+              />
             </div>
             <Button>Search</Button>
           </div>
+          <div className="house-cards">
+            <Card hoverable className="house-single-card">
+              <div className="house-card-img-container">
+                <img
+                className="house-card-img"
+                  alt="example"
+                  src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png"
+                />
+              </div>
+              <div className="house-card-text-container">
+                  <div className="card-title">Burtonsive</div>
+                  <div className="distance"><CheckOutlined style={{color:"green", marginRight:'5px'}}/><EnvironmentFilled />15 mins bike</div>
+                  <div className="seleted-criterion"><CheckOutlined style={{color:"green", marginRight:'5px'}}/>Gym</div>
+                  <div className="seleted-criterion"><CheckOutlined style={{color:"green", marginRight:'5px'}}/>Coffee Shop</div>
+                  <div className="card-more-text">More</div>
+              </div>
+            </Card>
+            <Card hoverable className="house-single-card">
+              <div className="house-card-img-container">
+                <img
+                className="house-card-img"
+                  alt="example"
+                  src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png"
+                />
+              </div>
+              <div className="house-card-text-container">
+                  <div className="card-title">Canton</div>
+                  <div className="distance"><CheckOutlined style={{color:"green", marginRight:'5px'}}/><EnvironmentFilled />15 mins bike</div>
+                  <div className="seleted-criterion"><CheckOutlined style={{color:"green", marginRight:'5px'}}/>Gym</div>
+                  <div className="seleted-criterion"><CheckOutlined style={{color:"green", marginRight:'5px'}}/>Coffee Shop</div>
+                  <div className="card-more-text">More</div>
+              </div>
+            </Card>
+            <Card hoverable className="house-single-card">
+              <div className="house-card-img-container">
+                <img
+                className="house-card-img"
+                  alt="example"
+                  src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png"
+                />
+              </div>
+              <div className="house-card-text-container">
+                  <div className="card-title">Columbia</div>
+                  <div className="distance"><CheckOutlined style={{color:"green", marginRight:'5px'}}/><EnvironmentFilled />15 mins bike</div>
+                  <div className="seleted-criterion"><CheckOutlined style={{color:"green", marginRight:'5px'}}/>Gym</div>
+                  <div className="seleted-criterion"><CheckOutlined style={{color:"green", marginRight:'5px'}}/>Coffee Shop</div>
+                  <div className="card-more-text">More</div>
+              </div>
+            </Card>
+            <Card hoverable className="house-single-card">
+              <div className="house-card-img-container">
+                <img
+                className="house-card-img"
+                  alt="example"
+                  src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png"
+                />
+              </div>
+              <div className="house-card-text-container">
+                  <div className="card-title">Burtonsive</div>
+                  <div className="distance"><CheckOutlined style={{color:"green", marginRight:'5px'}}/><EnvironmentFilled />15 mins bike</div>
+                  <div className="seleted-criterion"><CheckOutlined style={{color:"green", marginRight:'5px'}}/>Gym</div>
+                  <div className="seleted-criterion"><CheckOutlined style={{color:"green", marginRight:'5px'}}/>Coffee Shop</div>
+                  <div className="card-more-text">More</div>
+              </div>
+            </Card>
+            <Card hoverable className="house-single-card">
+              <div className="house-card-img-container">
+                <img
+                className="house-card-img"
+                  alt="example"
+                  src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png"
+                />
+              </div>
+              <div className="house-card-text-container">
+                  <div className="card-title">Burtonsive</div>
+                  <div className="distance"><CheckOutlined style={{color:"green", marginRight:'5px'}}/><EnvironmentFilled />15 mins bike</div>
+                  <div className="seleted-criterion"><CheckOutlined style={{color:"green", marginRight:'5px'}}/>Gym</div>
+                  <div className="seleted-criterion"><CheckOutlined style={{color:"green", marginRight:'5px'}}/>Coffee Shop</div>
+                  <div className="card-more-text">More</div>
+              </div>
+            </Card>
+            <Card hoverable className="house-single-card">
+              <div className="house-card-img-container">
+                <img
+                className="house-card-img"
+                  alt="example"
+                  src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png"
+                />
+              </div>
+              <div className="house-card-text-container">
+                  <div className="card-title">Burtonsive</div>
+                  <div className="distance"><CheckOutlined style={{color:"green", marginRight:'5px'}}/><EnvironmentFilled />15 mins bike</div>
+                  <div className="seleted-criterion"><CheckOutlined style={{color:"green", marginRight:'5px'}}/>Gym</div>
+                  <div className="seleted-criterion"><CheckOutlined style={{color:"green", marginRight:'5px'}}/>Coffee Shop</div>
+                  <div className="card-more-text">More</div>
+              </div>
+            </Card>
+          </div>
         </Sider>
         <Layout style={{ margin: "70px 50px" }}>
-          <Content style={{ background: "#fff", padding: "10px 20px"}}>
-            <div style={{textAlign:'left'}}>Facilities</div>
+          <Content style={{ background: "#fff", padding: "10px 20px" }}>
+            <div style={{ textAlign: "left" }}>Facilities</div>
             <Button>Gym</Button>
             <Button>Coffee Shop</Button>
             <Button>Restaurant</Button>
             <Button>Grocery Store</Button>
-            <div className="price-safty-btns" style={{margin:"30px 0"}}>
+            <div className="price-safty-btns" style={{ margin: "30px 0" }}>
               <Button>Price</Button>
               <Button>Safety</Button>
             </div>
-
-
           </Content>
           <Content style={{ margin: "24px 0", overflow: "initial" }}>
             <div
@@ -128,8 +235,7 @@ class FilterMapPage extends React.Component {
               <br />
               ...
               <br />
-              ...
-              content
+              ... content
             </div>
           </Content>
           <Footer style={{ textAlign: "center" }}>
