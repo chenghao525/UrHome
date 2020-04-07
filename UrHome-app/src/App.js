@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
-import FilterMapPage from "./components/FilterMapPage";
+import FilterMapPage from "./pages/FilterMapPage";
 import "antd/dist/antd.css";
 import store from "./store";
 import { Provider } from "react-redux";
