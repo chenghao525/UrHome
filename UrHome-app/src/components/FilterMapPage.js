@@ -1,7 +1,13 @@
 import React from "react";
 import { Layout, Button, Input, Card } from "antd";
 import "../styles/filterMapPageStyle.css";
-import { CheckOutlined,EnvironmentOutlined,EnvironmentFilled} from '@ant-design/icons';
+import {
+  CheckOutlined,
+  EnvironmentOutlined,
+  EnvironmentFilled,
+} from "@ant-design/icons";
+import { DatePicker } from "antd";
+import "antd/dist/antd.css"; // or 'antd/dist/antd.less'
 
 const { Content, Footer, Sider } = Layout;
 const { Meta } = Card;
@@ -54,97 +60,193 @@ class FilterMapPage extends React.Component {
             <Card hoverable className="house-single-card">
               <div className="house-card-img-container">
                 <img
-                className="house-card-img"
+                  className="house-card-img"
                   alt="example"
                   src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png"
                 />
               </div>
               <div className="house-card-text-container">
-                  <div className="card-title">Burtonsive</div>
-                  <div className="distance"><CheckOutlined style={{color:"green", marginRight:'5px'}}/><EnvironmentFilled />15 mins bike</div>
-                  <div className="seleted-criterion"><CheckOutlined style={{color:"green", marginRight:'5px'}}/>Gym</div>
-                  <div className="seleted-criterion"><CheckOutlined style={{color:"green", marginRight:'5px'}}/>Coffee Shop</div>
-                  <div className="card-more-text">More</div>
+                <div className="card-title">Burtonsive</div>
+                <div className="distance">
+                  <CheckOutlined
+                    style={{ color: "green", marginRight: "5px" }}
+                  />
+                  <EnvironmentFilled />
+                  15 mins bike
+                </div>
+                <div className="seleted-criterion">
+                  <CheckOutlined
+                    style={{ color: "green", marginRight: "5px" }}
+                  />
+                  Gym
+                </div>
+                <div className="seleted-criterion">
+                  <CheckOutlined
+                    style={{ color: "green", marginRight: "5px" }}
+                  />
+                  Coffee Shop
+                </div>
+                <div className="card-more-text">More</div>
               </div>
             </Card>
             <Card hoverable className="house-single-card">
               <div className="house-card-img-container">
                 <img
-                className="house-card-img"
+                  className="house-card-img"
                   alt="example"
                   src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png"
                 />
               </div>
               <div className="house-card-text-container">
-                  <div className="card-title">Canton</div>
-                  <div className="distance"><CheckOutlined style={{color:"green", marginRight:'5px'}}/><EnvironmentFilled />15 mins bike</div>
-                  <div className="seleted-criterion"><CheckOutlined style={{color:"green", marginRight:'5px'}}/>Gym</div>
-                  <div className="seleted-criterion"><CheckOutlined style={{color:"green", marginRight:'5px'}}/>Coffee Shop</div>
-                  <div className="card-more-text">More</div>
+                <div className="card-title">Canton</div>
+                <div className="distance">
+                  <CheckOutlined
+                    style={{ color: "green", marginRight: "5px" }}
+                  />
+                  <EnvironmentFilled />
+                  15 mins bike
+                </div>
+                <div className="seleted-criterion">
+                  <CheckOutlined
+                    style={{ color: "green", marginRight: "5px" }}
+                  />
+                  Gym
+                </div>
+                <div className="seleted-criterion">
+                  <CheckOutlined
+                    style={{ color: "green", marginRight: "5px" }}
+                  />
+                  Coffee Shop
+                </div>
+                <div className="card-more-text">More</div>
               </div>
             </Card>
             <Card hoverable className="house-single-card">
               <div className="house-card-img-container">
                 <img
-                className="house-card-img"
+                  className="house-card-img"
                   alt="example"
                   src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png"
                 />
               </div>
               <div className="house-card-text-container">
-                  <div className="card-title">Columbia</div>
-                  <div className="distance"><CheckOutlined style={{color:"green", marginRight:'5px'}}/><EnvironmentFilled />15 mins bike</div>
-                  <div className="seleted-criterion"><CheckOutlined style={{color:"green", marginRight:'5px'}}/>Gym</div>
-                  <div className="seleted-criterion"><CheckOutlined style={{color:"green", marginRight:'5px'}}/>Coffee Shop</div>
-                  <div className="card-more-text">More</div>
+                <div className="card-title">Columbia</div>
+                <div className="distance">
+                  <CheckOutlined
+                    style={{ color: "green", marginRight: "5px" }}
+                  />
+                  <EnvironmentFilled />
+                  15 mins bike
+                </div>
+                <div className="seleted-criterion">
+                  <CheckOutlined
+                    style={{ color: "green", marginRight: "5px" }}
+                  />
+                  Gym
+                </div>
+                <div className="seleted-criterion">
+                  <CheckOutlined
+                    style={{ color: "green", marginRight: "5px" }}
+                  />
+                  Coffee Shop
+                </div>
+                <div className="card-more-text">More</div>
               </div>
             </Card>
             <Card hoverable className="house-single-card">
               <div className="house-card-img-container">
                 <img
-                className="house-card-img"
+                  className="house-card-img"
                   alt="example"
                   src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png"
                 />
               </div>
               <div className="house-card-text-container">
-                  <div className="card-title">Burtonsive</div>
-                  <div className="distance"><CheckOutlined style={{color:"green", marginRight:'5px'}}/><EnvironmentFilled />15 mins bike</div>
-                  <div className="seleted-criterion"><CheckOutlined style={{color:"green", marginRight:'5px'}}/>Gym</div>
-                  <div className="seleted-criterion"><CheckOutlined style={{color:"green", marginRight:'5px'}}/>Coffee Shop</div>
-                  <div className="card-more-text">More</div>
+                <div className="card-title">Burtonsive</div>
+                <div className="distance">
+                  <CheckOutlined
+                    style={{ color: "green", marginRight: "5px" }}
+                  />
+                  <EnvironmentFilled />
+                  15 mins bike
+                </div>
+                <div className="seleted-criterion">
+                  <CheckOutlined
+                    style={{ color: "green", marginRight: "5px" }}
+                  />
+                  Gym
+                </div>
+                <div className="seleted-criterion">
+                  <CheckOutlined
+                    style={{ color: "green", marginRight: "5px" }}
+                  />
+                  Coffee Shop
+                </div>
+                <div className="card-more-text">More</div>
               </div>
             </Card>
             <Card hoverable className="house-single-card">
               <div className="house-card-img-container">
                 <img
-                className="house-card-img"
+                  className="house-card-img"
                   alt="example"
                   src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png"
                 />
               </div>
               <div className="house-card-text-container">
-                  <div className="card-title">Burtonsive</div>
-                  <div className="distance"><CheckOutlined style={{color:"green", marginRight:'5px'}}/><EnvironmentFilled />15 mins bike</div>
-                  <div className="seleted-criterion"><CheckOutlined style={{color:"green", marginRight:'5px'}}/>Gym</div>
-                  <div className="seleted-criterion"><CheckOutlined style={{color:"green", marginRight:'5px'}}/>Coffee Shop</div>
-                  <div className="card-more-text">More</div>
+                <div className="card-title">Burtonsive</div>
+                <div className="distance">
+                  <CheckOutlined
+                    style={{ color: "green", marginRight: "5px" }}
+                  />
+                  <EnvironmentFilled />
+                  15 mins bike
+                </div>
+                <div className="seleted-criterion">
+                  <CheckOutlined
+                    style={{ color: "green", marginRight: "5px" }}
+                  />
+                  Gym
+                </div>
+                <div className="seleted-criterion">
+                  <CheckOutlined
+                    style={{ color: "green", marginRight: "5px" }}
+                  />
+                  Coffee Shop
+                </div>
+                <div className="card-more-text">More</div>
               </div>
             </Card>
             <Card hoverable className="house-single-card">
               <div className="house-card-img-container">
                 <img
-                className="house-card-img"
+                  className="house-card-img"
                   alt="example"
                   src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png"
                 />
               </div>
               <div className="house-card-text-container">
-                  <div className="card-title">Burtonsive</div>
-                  <div className="distance"><CheckOutlined style={{color:"green", marginRight:'5px'}}/><EnvironmentFilled />15 mins bike</div>
-                  <div className="seleted-criterion"><CheckOutlined style={{color:"green", marginRight:'5px'}}/>Gym</div>
-                  <div className="seleted-criterion"><CheckOutlined style={{color:"green", marginRight:'5px'}}/>Coffee Shop</div>
-                  <div className="card-more-text">More</div>
+                <div className="card-title">Burtonsive</div>
+                <div className="distance">
+                  <CheckOutlined
+                    style={{ color: "green", marginRight: "5px" }}
+                  />
+                  <EnvironmentFilled />
+                  15 mins bike
+                </div>
+                <div className="seleted-criterion">
+                  <CheckOutlined
+                    style={{ color: "green", marginRight: "5px" }}
+                  />
+                  Gym
+                </div>
+                <div className="seleted-criterion">
+                  <CheckOutlined
+                    style={{ color: "green", marginRight: "5px" }}
+                  />
+                  Coffee Shop
+                </div>
+                <div className="card-more-text">More</div>
               </div>
             </Card>
           </div>
