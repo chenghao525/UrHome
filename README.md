@@ -22,5 +22,5 @@ Web application to improve the experience of finding rental houses
 ## 技术实现
 - React 项目
 
-## 下次会议：
+## 下次会议
 周六下午2：00
