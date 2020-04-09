@@ -50,6 +50,12 @@ Web application to improve the experience of finding rental houses
   - 时间  
   - 小地图展示  
   标注地点：地点为学校地址  
-  交互：通过交通工具和时间得到范围  
-  
+  交互：通过交通工具和时间得到范围    
+  #### 1.3周边设施：  
+  ![](doc/facilities.png)  
+  - 设施类型勾选栏  
+  可以选择多个
+  - 小地图展示  
+  地图默认位置：学校位置  
+  交互：在地图上展示出勾选的设施位置。  
   
