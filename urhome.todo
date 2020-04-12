@@ -8,4 +8,6 @@ backend:
     ❍ study go backend @est(5h)
     ❍ analyze acuppa auth @est(4h)
 
-card:
+filter:
+    ✔ csv to json @started(20-04-12 00:56) @done(20-04-12 01:07) @lasted(11m47s)
+    ❍ click to print message
