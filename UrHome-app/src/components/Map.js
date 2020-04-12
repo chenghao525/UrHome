@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import * as mapActions from "../store/actions/map";
 import { useDispatch, useSelector } from "react-redux";
 
-import { Layout, Button, Input, Card } from "antd";
+import { Layout, Button, Input, Card, Radio } from "antd";
 import GoogleMapReact from "google-map-react";
 import axios from "axios";
 
@@ -49,19 +49,17 @@ const Map = ReactMapboxGl({
 // https://github.com/alex3165/react-mapbox-gl/blob/master/docs/API.md
 const SimpleMap = () => {
   const [layerData, setLayerData] = useState();
-  const [transportation, setTransportation] = useState();
-  const [duration, setDuration] = useState();
+  const [transportation, setTransportation] = useState("cycling");
+  const [duration, setDuration] = useState(10);
 
   function transportationChange(transportationType){
     console.log(transportationType)
-      setTransportation(transportationType);
-      getIso()
+    setTransportation(transportationType);
   }
 
   function durationChange(duration){
     console.log(duration)
     setDuration(duration);
-    getIso()
   }
 
 
@@ -70,8 +68,8 @@ const SimpleMap = () => {
     var urlBase = "https://api.mapbox.com/isochrone/v1/mapbox/";
     var lon = -76.6215;
     var lat = 39.3286;
-    var profile = transportation?transportation:"cycling";
-    var minutes = duration?duration:10;
+    var profile = transportation;
+    var minutes = duration;
 
     var query =
       urlBase +
@@ -105,9 +103,9 @@ const SimpleMap = () => {
     getIso();
   },[transportation, duration]);
 
-  useEffect(() => {
-    console.log("LAYer",layerData)
-  }, [layerData]);
+  // useEffect(() => {
+  //   console.log("LAYer",layerData)
+  // }, [layerData]);
 
   return (
     // Important! Always set the container height explicitly
@@ -134,40 +132,43 @@ const SimpleMap = () => {
             <h4 class="txt-m txt-bold mb6">Chose a travel mode:</h4>
             <div class="mb12 mr12 toggle-group align-center">
               <label class="toggle-container">
-                <input name="profile" type="radio" value="walking" onChange={e =>{transportationChange(e.target.value)}} />
+                <input name="profile" type="radio" id="walking" value="walking" onChange={e =>{transportationChange(e.target.value)}} />
                 <div class="toggle toggle--active-null toggle--null">
                   Walking
                 </div>
+                {/* <label for="walking">Walking</label> */}
               </label>
               <label class="toggle-container">
-                <Input name="profile" type="radio" value="cycling" onChange={e =>{transportationChange(e.target.value)}} />
+                <input name="profile" type="radio" id="cycling" value="cycling" onChange={e =>{transportationChange(e.target.value)}} checked/>
                 <div class="toggle toggle--active-null toggle--null">
                   Cycling
                 </div>
+                {/* <label for="Cycling">Cycling</label> */}
               </label>
               <label class="toggle-container">
-                <Input name="profile" type="radio" value="driving" onChange={e =>{transportationChange(e.target.value)}}/>
+                <input name="profile" type="radio"  id="driving" value="driving" onChange={e =>{transportationChange(e.target.value)}}/>
                 <div class="toggle toggle--active-null toggle--null">
                   Driving
                 </div>
+                {/* <label for="Driving">Driving</label> */}
               </label>
             </div>
             <h4 class="txt-m txt-bold mb6">Chose a maximum duration:</h4>
             <div class="mb12 mr12 toggle-group align-center">
               <label class="toggle-container">
-                <Input name="duration" type="radio" value="10" onChange={e =>{durationChange(e.target.value)}}/>
+                <input name="duration" type="radio" value="10" onChange={e =>{durationChange(e.target.value)}} checked/>
                 <div class="toggle toggle--active-null toggle--null">
                   10 min
                 </div>
               </label>
               <label class="toggle-container">
-                <Input name="duration" type="radio" value="20" onChange={e =>{durationChange(e.target.value)}}/>
+                <input name="duration" type="radio" value="20" onChange={e =>{durationChange(e.target.value)}}/>
                 <div class="toggle toggle--active-null toggle--null">
                   20 min
                 </div>
               </label>
               <label class="toggle-container">
-                <Input name="duration" type="radio" value="30" onChange={e =>{durationChange(e.target.value)}}/>
+                <input name="duration" type="radio" value="30" onChange={e =>{durationChange(e.target.value)}}/>
                 <div class="toggle toggle--active-null toggle--null">
                   30 min
                 </div>
