@@ -1,0 +1,11 @@
+pin:
+    ❍ map api @est(1h)
+    ❍ store for map @est(20m) @started(20-04-07 16:45)
+    ❍ dummy data and print out
+
+backend:
+    ❍ go 3 problems @est(2h)
+    ❍ study go backend @est(5h)
+    ❍ analyze acuppa auth @est(4h)
+
+card:
