@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿House type,beds,Price,image,Address
+=======
+﻿type,bedsNum,price,image,address
+>>>>>>> dev_xjm
 Townhouse for rent,3bds,995,https://photos.zillowstatic.com/p_e/ISr9wklmtkf5du0000000000.jpg,"2945 Walbrook Ave, Baltimore, MD 21216"
 Camden Court,Studio,1195,https://photos.zillowstatic.com/p_e/ISu8a60d79zfm80000000000.jpg,"300 W Lombard St, Baltimore, MD"
 Condo for rent,3bds,2400,https://photos.zillowstatic.com/p_e/IS33jjeyc1mk1o0000000000.jpg,"1817 S Charles St, Baltimore, MD 21230"
