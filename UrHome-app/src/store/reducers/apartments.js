@@ -1,16 +1,16 @@
-import {SET_NEIGHBORHOODS, SET_FACILITIES} from '../actions/map'
+import {SET_NEIGHBORHOODS, SET_APARTMENTS} from '../actions/apartments'
 
 const initialState = {
-  facilities: [],
-  neighborhoods: [],
+  apartments: null,
+  neighborhoods: null,
 };
 
 export default (state = initialState, action) => {
   switch (action.type){
-    case SET_FACILITIES:
+    case SET_APARTMENTS:
       return {
         ...state,
-        facilities:action.facilities
+        apartments:action.apartments
       };
     case SET_NEIGHBORHOODS:
       return {
