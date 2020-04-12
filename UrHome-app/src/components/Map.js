@@ -24,6 +24,14 @@ var tempGeoJason ={
   }
 }
 
+const RASTER_SOURCE_OPTIONS = {
+  "type": "raster",
+  "tiles": [
+    "https://someurl.com/512/{z}/{x}/{y}",
+  ],
+  "tileSize": 512
+};
+
 // // Create variables to use in getIso()
 
 // Create a function that sets up the Isochrone API query then makes an Ajax call
@@ -36,16 +44,34 @@ const Map = ReactMapboxGl({
     "pk.eyJ1IjoieGlhbmdqdW4iLCJhIjoiY2s4cWpkYWdnMDM3azNtczFkZHhxd2hmZiJ9.dLC65wCHxIk2eKp9nQEE5g",
 });
 
+
+
 // https://github.com/alex3165/react-mapbox-gl/blob/master/docs/API.md
 const SimpleMap = () => {
   const [layerData, setLayerData] = useState();
+  const [transportation, setTransportation] = useState();
+  const [duration, setDuration] = useState();
+
+  function transportationChange(transportationType){
+    console.log(transportationType)
+      setTransportation(transportationType);
+      getIso()
+  }
+
+  function durationChange(duration){
+    console.log(duration)
+    setDuration(duration);
+    getIso()
+  }
+
+
 
   function getIso() {
     var urlBase = "https://api.mapbox.com/isochrone/v1/mapbox/";
     var lon = -76.6215;
     var lat = 39.3286;
-    var profile = "cycling";
-    var minutes = 10;
+    var profile = transportation?transportation:"cycling";
+    var minutes = duration?duration:10;
 
     var query =
       urlBase +
@@ -62,7 +88,11 @@ const SimpleMap = () => {
     axios
       .get(query, {})
       .then((res) => {
-        setLayerData(res.data.features[0]);
+        let tempGeoJson = {};
+
+        tempGeoJson["type"] = "geojson"
+        tempGeoJson["data"] = res.data.features[0]
+        setLayerData(tempGeoJson);
         console.log("iso", res);
         console.log("iso get success");
       })
@@ -73,7 +103,7 @@ const SimpleMap = () => {
 
   useEffect(() => {
     getIso();
-  }, []);
+  },[transportation, duration]);
 
   useEffect(() => {
     console.log("LAYer",layerData)
@@ -104,19 +134,19 @@ const SimpleMap = () => {
             <h4 class="txt-m txt-bold mb6">Chose a travel mode:</h4>
             <div class="mb12 mr12 toggle-group align-center">
               <label class="toggle-container">
-                <input name="profile" type="radio" value="walking" />
+                <input name="profile" type="radio" value="walking" onChange={e =>{transportationChange(e.target.value)}} />
                 <div class="toggle toggle--active-null toggle--null">
                   Walking
                 </div>
               </label>
               <label class="toggle-container">
-                <input name="profile" type="radio" value="cycling" checked />
+                <Input name="profile" type="radio" value="cycling" onChange={e =>{transportationChange(e.target.value)}} />
                 <div class="toggle toggle--active-null toggle--null">
                   Cycling
                 </div>
               </label>
               <label class="toggle-container">
-                <input name="profile" type="radio" value="driving" />
+                <Input name="profile" type="radio" value="driving" onChange={e =>{transportationChange(e.target.value)}}/>
                 <div class="toggle toggle--active-null toggle--null">
                   Driving
                 </div>
@@ -125,19 +155,19 @@ const SimpleMap = () => {
             <h4 class="txt-m txt-bold mb6">Chose a maximum duration:</h4>
             <div class="mb12 mr12 toggle-group align-center">
               <label class="toggle-container">
-                <input name="duration" type="radio" value="10" checked />
+                <Input name="duration" type="radio" value="10" onChange={e =>{durationChange(e.target.value)}}/>
                 <div class="toggle toggle--active-null toggle--null">
                   10 min
                 </div>
               </label>
               <label class="toggle-container">
-                <input name="duration" type="radio" value="20" />
+                <Input name="duration" type="radio" value="20" onChange={e =>{durationChange(e.target.value)}}/>
                 <div class="toggle toggle--active-null toggle--null">
                   20 min
                 </div>
               </label>
               <label class="toggle-container">
-                <input name="duration" type="radio" value="30" />
+                <Input name="duration" type="radio" value="30" onChange={e =>{durationChange(e.target.value)}}/>
                 <div class="toggle toggle--active-null toggle--null">
                   30 min
                 </div>
@@ -149,7 +179,7 @@ const SimpleMap = () => {
           <Feature coordinates={[-76.6215, 39.3286]} />
           <Feature coordinates={[-76.6235, 39.3286]} />
         </Layer> */}
-        {/* <Source id="iso" type="FeatureCollection" geoJsonSource={{layerData}}></Source> */}
+        <Source id="iso" type="FeatureCollection" geoJsonSource={layerData}></Source>
         <Layer
           id="isoLayer"
           type="fill"
