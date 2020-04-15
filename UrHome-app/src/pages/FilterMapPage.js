@@ -10,8 +10,6 @@ import "../styles/filterMapPageStyle.css";
 const { Content, Footer, Sider } = Layout;
 const { Meta } = Card;
 
-// class FilterMapPage extends React.Component {
-//   render() {
 const FilterMapPage = () => {
   // * test
   // useEffect(() => {

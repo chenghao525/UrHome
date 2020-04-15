@@ -7,28 +7,27 @@ import { Layout, Button, Input, Card, Checkbox } from "antd";
 const { Content, Footer, Sider } = Layout;
 const { Meta } = Card;
 
-
-
-
-const gymChecked = (e) =>{
+const gymChecked = (e) => {
   console.log(`checked = ${e.target.checked}`);
-}
+};
 
-const coffeeChecked = (e) =>{
+const coffeeChecked = (e) => {
   console.log(`checked = ${e.target.checked}`);
-}
+};
 
-const restaurantChecked = (e) =>{
+const restaurantChecked = (e) => {
   console.log(`checked = ${e.target.checked}`);
-}
+};
 
-const groceryChecked = (e) =>{
+const groceryChecked = (e) => {
   console.log(`checked = ${e.target.checked}`);
-}
+};
 
 const LocationPreferance = (e) => {
-  
-  
+  // TODO:
+  // const facilitiTypes = useSelector((state) => {
+  //   return state.user.facilityTypes;
+  // })
   return (
     <>
       <div style={{ textAlign: "left" }}>Facilities</div>
