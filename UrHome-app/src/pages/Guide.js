@@ -60,6 +60,10 @@ const App = ({ navigation, route }) => {
     });
     return (
       <div>
+        <Input
+          size="small"
+          style={{ width: "100px", marginLeft: "10px" }}
+        />
         <Title level={2}>Specific department</Title>
         <Title level={3}>Input the name of University</Title>
         <Select

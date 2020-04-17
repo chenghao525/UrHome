@@ -29,20 +29,45 @@ const { Title, Text } = Typography;
 const NeighborhoodCardList = () => {
   const dispatch = useDispatch();
   const [visible, setVisible] = useState(true);
-  const [selectedNeighborhood, setSelectedNeighborhood] = useState("Walbrook");
 
   const [inputBedNum, setInputBedNum] = useState(2);
   const [inputBathNum, setInputBathNum] = useState(2);
   const [inputRentFrom, setInputRentFrom] = useState(500);
-  const [inputRentTo, setInputRentTo] = useState(2000);
+  const [inputRentTo, setInputRentTo] = useState(900);
 
-
-  const neighborhoods = useSelector((state) => state.apartment.neighborhoods);
-  const displayApartments = useSelector((state) => {
-    return state.apartment.apartments.filter(
-      (x) => x.neighborhood === selectedNeighborhood
-    );
+  const apart = useSelector((state) => {
+    return state.apartment.apartments;
   });
+  const [apartments, setApartments] = useState([]);
+  const [neighborhoods, setNeighborhoods] = useState(["Walbrook"]);
+  const [selectedNeighborhood, setSelectedNeighborhood] = useState("Walbrook");
+  const [displayApartments, setDisplayApartments] = useState([]);
+
+  function onSearchButtonOnClicked() {
+    setApartments(
+      apart.filter((x) => x.price > inputRentFrom && x.price < inputRentTo)
+    );
+  }
+
+  useEffect(() => {
+    onSearchButtonOnClicked();
+  }, [apart]);
+
+  useEffect(() => {
+    const res = apartments.map((x) => {
+      return { name: x.neighborhood };
+    });
+    setNeighborhoods(res.filter((v, i) => res.indexOf(v) == i));
+    setDisplayApartments(
+      apartments.filter((x) => x.neighborhood === selectedNeighborhood)
+    );
+  }, [apartments, selectedNeighborhood]);
+  // const neighborhoods = useSelector((state) => state.apartment.neighborhoods);
+  // const displayApartments = useSelector((state) => {
+  //   return state.apartment.apartments.filter(
+  //     (x) => x.neighborhood === selectedNeighborhood
+  //   );
+  // });
 
   useEffect(() => {
     const fetchData = async () => {
@@ -51,6 +76,8 @@ const NeighborhoodCardList = () => {
       await dispatch(apartmentAction.setApartments());
     };
     fetchData();
+    setApartments(apart);
+    // onSearchButtonOnClicked();
   }, []);
 
   // * test
@@ -68,7 +95,7 @@ const NeighborhoodCardList = () => {
           <Input
             size="small"
             style={{ width: "100px", marginLeft: "10px" }}
-            value={inputBedNum}
+            defaultValue={inputBedNum}
             onChange={setInputBedNum}
           />
         </div>
@@ -77,7 +104,7 @@ const NeighborhoodCardList = () => {
           <Input
             size="small"
             style={{ width: "100px", marginLeft: "10px" }}
-            value={inputBathNum}
+            defaultValue={inputBathNum}
             onChange={setInputBathNum}
           />
         </div>
@@ -86,14 +113,14 @@ const NeighborhoodCardList = () => {
           <Input
             size="small"
             style={{ width: "50px", margin: "0 10px" }}
-            value={inputRentFrom}
+            defaultValue={inputRentFrom}
             onChange={setInputRentFrom}
           />
           to
           <Input
             size="small"
             style={{ width: "50px", margin: "0 10px" }}
-            value={inputRentTo}
+            defaultValue={inputRentTo}
             onChange={setInputRentTo}
           />
         </div>
@@ -138,15 +165,15 @@ const NeighborhoodCardList = () => {
     );
   };
 
+  function apartmentCardOnClick() {
+    setVisible(true);
+  }
   const apartmentRenderItem = (item) => {
     const apartment = item;
     const imageSrc =
       apartment.image.substring(0, 4) == "http"
         ? apartment.image
         : "https://photos.zillowstatic.com/p_e/ISr9wklmtkf5du0000000000.jpg";
-    function apartmentCardOnClick() {
-      setVisible(true);
-    }
     return (
       // <Popover content={content} title="Title" trigger="click"></Popover>
       <div onClick={apartmentCardOnClick}>
@@ -182,7 +209,7 @@ const NeighborhoodCardList = () => {
         />
       ) : (
         <List
-          header={<div>Header</div>}
+          header={<div onClick={apartmentCardOnClick}>Header</div>}
           footer={<div>Footer</div>}
           bordered
           dataSource={displayApartments}
