@@ -33,7 +33,7 @@ const NeighborhoodCardList = () => {
   const [inputBedNum, setInputBedNum] = useState(2);
   const [inputBathNum, setInputBathNum] = useState(2);
   const [inputRentFrom, setInputRentFrom] = useState(500);
-  const [inputRentTo, setInputRentTo] = useState(900);
+  const [inputRentTo, setInputRentTo] = useState(1500);
 
   const apart = useSelector((state) => {
     return state.apartment.apartments;

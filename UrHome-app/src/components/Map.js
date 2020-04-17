@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-key */
 /* eslint-disable react/no-unknown-property */
 import React, { useEffect, useState } from "react";
 import * as mapActions from "../store/actions/map";
@@ -12,6 +13,11 @@ import mapboxgl from "mapbox-gl";
 import ReactMapboxGl, { Layer, Feature, Source } from "react-mapbox-gl";
 import Baltimore_Neighbourhoods from "../data/Baltimore_Neighborhoods_data";
 import { GeoJSONLayer } from "react-mapbox-gl";
+
+import Gym_data from "../data/Gym_data";
+import Restaurant_data from "../data/Restaurant_data";
+import Supermarket_data from "../data/Supermarket_data";
+import Cafe_data from "../data/Cafe_data";
 
 var accessToken =
   "pk.eyJ1IjoieGlhbmdqdW4iLCJhIjoiY2s4cWpkYWdnMDM3azNtczFkZHhxd2hmZiJ9.dLC65wCHxIk2eKp9nQEE5g";
@@ -50,6 +56,26 @@ const SimpleMap = () => {
   const [layerData, setLayerData] = useState();
   const [transportation, setTransportation] = useState("cycling");
   const [duration, setDuration] = useState(10);
+  const [gymVisible, setGymVisible] = useState(true);
+  const [supermarketVisible, setSupermarketVisible] = useState(true);
+  const [restaurantVisible, setRestaurantVisible] = useState(true);
+  const [cafeVisible, setCafeVisible] = useState(true);
+
+  const Gyms = Gym_data.map((x) => (
+    <Feature coordinates={[x.geometry.location.lng, x.geometry.location.lat]} />
+  ));
+
+  const Supermarkets = Supermarket_data.map((x) => (
+    <Feature coordinates={[x.geometry.location.lng, x.geometry.location.lat]} />
+  ));
+
+  const Restaurants = Restaurant_data.map((x) => (
+    <Feature coordinates={[x.geometry.location.lng, x.geometry.location.lat]} />
+  ));
+
+  const Cafe = Cafe_data.map((x) => (
+    <Feature coordinates={[x.geometry.location.lng, x.geometry.location.lat]} />
+  ));
 
   function transportationChange(transportationType) {
     console.log(transportationType);
@@ -220,10 +246,18 @@ const SimpleMap = () => {
             </div>
           </form>
         </div>
-        {/* <Layer type="symbol" id="marker" layout={{ "icon-image": "harbor-15" }}>
-          <Feature coordinates={[-76.6215, 39.3286]} />
-          <Feature coordinates={[-76.6235, 39.3286]} />
-        </Layer> */}
+        <Layer type="symbol" id="marker" layout={{ "icon-image": "harbor-15" }}>
+          {gymVisible && Gyms}
+        </Layer>
+        <Layer type="symbol" id="marker" layout={{ "icon-image": "harbor-15" }}>
+          {supermarketVisible && Supermarkets}
+        </Layer>
+        <Layer type="symbol" id="marker" layout={{ "icon-image": "harbor-15" }}>
+          {cafeVisible && Cafe}
+        </Layer>
+        <Layer type="symbol" id="marker" layout={{ "icon-image": "harbor-15" }}>
+          {restaurantVisible && Restaurants}
+        </Layer>
         <Source
           id="iso"
           type="FeatureCollection"

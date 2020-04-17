@@ -1,0 +1,784 @@
+[
+  {
+    "geometry": {
+      "location": { "lat": 39.287023, "lng": -76.605278 },
+      "viewport": {
+        "northeast": { "lat": 39.28828403029149, "lng": -76.6039260197085 },
+        "southwest": { "lat": 39.2855860697085, "lng": -76.6066239802915 }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+    "id": "303ec1b10f25132afbb76559ca0249e7ff9f873f",
+    "name": "Miss Shirley's Cafe, Inner Harbor",
+    "opening_hours": { "open_now": false },
+    "photos": [
+      {
+        "height": 400,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114401038377759845478\">Miss Shirley&#39;s Cafe, Inner Harbor</a>"
+        ],
+        "photo_reference": "CmRaAAAADwXBIiRr6tQptp3VU0uhLchnjfCf2Nkf-mrtuVOgybGZuw_aViKFPkieuzLv1-5MJ_jYbrlVmTkuAZbHyN-byy6Ob0nOL8v3Q4dbhM0lGyOryekB-V8rv-FufAMj3igAEhCuGnFLxVSKM78Lg_VkwCnFGhRWK0yyv8-cyKL1lGK1XrHklPQ6ng",
+        "width": 600
+      }
+    ],
+    "place_id": "ChIJ3UdzoYIEyIkRcHIoPoU8BUQ",
+    "plus_code": {
+      "compound_code": "79PV+RV Baltimore, Maryland, United States",
+      "global_code": "87F579PV+RV"
+    },
+    "price_level": 2,
+    "rating": 4.5,
+    "reference": "ChIJ3UdzoYIEyIkRcHIoPoU8BUQ",
+    "scope": "GOOGLE",
+    "types": [
+      "cafe",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 3534,
+    "vicinity": "750 East Pratt Street, Baltimore"
+  },
+  {
+    "geometry": {
+      "location": { "lat": 39.3443648, "lng": -76.6314563 },
+      "viewport": {
+        "northeast": { "lat": 39.3458089302915, "lng": -76.6300693697085 },
+        "southwest": { "lat": 39.3431109697085, "lng": -76.6327673302915 }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+    "id": "efa50b6172db49d43cfec979156a582b253fcd1d",
+    "name": "Miss Shirley's Cafe, Roland Park",
+    "opening_hours": { "open_now": false },
+    "photos": [
+      {
+        "height": 400,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110544383311895490702\">Miss Shirley&#39;s Cafe, Roland Park</a>"
+        ],
+        "photo_reference": "CmRaAAAAjRnI8JG-Z3cPTfE_HWKCfS3aZttGNjRS58z6wc8ehRoADGo19C6P_LmPYihaifnVZxg50ItymQAbc3w49QU5a2_dTlQNdQ6ULnWeD88JOZlkOrpNkRTKehnx9TJMtvykEhBjDZ7AgGTT66afYtTrKXTAGhSAgdErwxxf7joSFgjYLg6cqY_g9w",
+        "width": 600
+      }
+    ],
+    "place_id": "ChIJ4ffv6zAFyIkRIR_Oi-mZ7kE",
+    "plus_code": {
+      "compound_code": "89V9+PC Baltimore, Maryland, United States",
+      "global_code": "87F589V9+PC"
+    },
+    "price_level": 2,
+    "rating": 4.6,
+    "reference": "ChIJ4ffv6zAFyIkRIR_Oi-mZ7kE",
+    "scope": "GOOGLE",
+    "types": [
+      "cafe",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 2716,
+    "vicinity": "513 West Cold Spring Lane, Baltimore"
+  },
+  {
+    "geometry": {
+      "location": { "lat": 39.2860854, "lng": -76.60728809999999 },
+      "viewport": {
+        "northeast": { "lat": 39.2877777302915, "lng": -76.6059340197085 },
+        "southwest": { "lat": 39.2850797697085, "lng": -76.6086319802915 }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+    "id": "68ccd1a5b92f8e5692c17a89e665d3025dcde8d4",
+    "name": "Barnes & Noble",
+    "opening_hours": { "open_now": false },
+    "photos": [
+      {
+        "height": 1836,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111462796552795928933\">Chen Joe</a>"
+        ],
+        "photo_reference": "CmRaAAAAdS_eOHeeWPJiiB-ZtPetCp8Xe2z4o5pp8jAO3jQTRVDjwtm1HwnbyqHdUXP-luPaZjyShjiOjdyPfuN5-YOg9udFytMv0lRN5X0h5AdzK19eJhM5P9xIkSU01T1wKLCGEhAcNanCMRqOQCvEc0JNvc4lGhSnd4uPpvRCJAdKb-vWQg6L44OV3A",
+        "width": 3264
+      }
+    ],
+    "place_id": "ChIJgTs6RX0DyIkREHgimE15YMg",
+    "plus_code": {
+      "compound_code": "79PV+C3 Baltimore, Maryland, United States",
+      "global_code": "87F579PV+C3"
+    },
+    "price_level": 2,
+    "rating": 4.6,
+    "reference": "ChIJgTs6RX0DyIkREHgimE15YMg",
+    "scope": "GOOGLE",
+    "types": [
+      "book_store",
+      "cafe",
+      "food",
+      "point_of_interest",
+      "store",
+      "establishment"
+    ],
+    "user_ratings_total": 2261,
+    "vicinity": "The Power Plant, 601 East Pratt Street, Baltimore"
+  },
+  {
+    "geometry": {
+      "location": { "lat": 39.3324405, "lng": -76.64139039999999 },
+      "viewport": {
+        "northeast": { "lat": 39.33357958029151, "lng": -76.63999551970848 },
+        "southwest": { "lat": 39.33088161970851, "lng": -76.6426934802915 }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png",
+    "id": "424f53661202ed459ccb0498ff11d368a1e8a9ca",
+    "name": "Artifact Coffee",
+    "opening_hours": { "open_now": false },
+    "photos": [
+      {
+        "height": 3036,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102599227142476718351\">Devon Petley</a>"
+        ],
+        "photo_reference": "CmRaAAAAqNWywYQ6-ZNUG9y1xUvEeNYiglVYWIYgDIoOa-ZfouBr0MPrrV2SbE4huJ_Qfk4OjCJoKYDiMrj5h32sNuyppdm8PRJzPLNhi79CBBmxZyZO0F5eUk9fyiTYUNwwFsQ3EhBGVqQJ1zgML3VlDv3raMJlGhTpRiNPhWQ_6J9Tun7t-PgdQM6HJQ",
+        "width": 4048
+      }
+    ],
+    "place_id": "ChIJdV6goioFyIkRZLOSmkPSXFI",
+    "plus_code": {
+      "compound_code": "89J5+XC Baltimore, Maryland, United States",
+      "global_code": "87F589J5+XC"
+    },
+    "price_level": 2,
+    "rating": 4.5,
+    "reference": "ChIJdV6goioFyIkRZLOSmkPSXFI",
+    "scope": "GOOGLE",
+    "types": ["cafe", "food", "point_of_interest", "store", "establishment"],
+    "user_ratings_total": 744,
+    "vicinity": "1500 Union Avenue, Baltimore"
+  },
+  {
+    "geometry": {
+      "location": { "lat": 39.33460600000001, "lng": -76.62052899999999 },
+      "viewport": {
+        "northeast": { "lat": 39.33588463029151, "lng": -76.6192561197085 },
+        "southwest": { "lat": 39.33318666970851, "lng": -76.6219540802915 }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png",
+    "id": "c83cca887bb390aff7e29437778b85c3fd90ef8d",
+    "name": "One World Cafe",
+    "opening_hours": { "open_now": false },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101919850071483260123\">Meenaa Berry</a>"
+        ],
+        "photo_reference": "CmRaAAAA2Zxfw_SeOXZRaug2g4cC4orW3zpdVbHdSV0wdNJkhviOw4-mvWs0q373NdGi1oPnn7ZZQNyiSbWSc--aXabA-DeB3wzPQiC1AHnQqJeWEnMN5J-3YTXk34D6mPAr6FSkEhDI3oEd_Q0rL4znZxuYQZJxGhT1txIacA_u-tvRex-K9aVRrAgIww",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJkSDuKyIFyIkRDMz7lHKUAmI",
+    "plus_code": {
+      "compound_code": "89MH+RQ Baltimore, Maryland, United States",
+      "global_code": "87F589MH+RQ"
+    },
+    "price_level": 2,
+    "rating": 4.4,
+    "reference": "ChIJkSDuKyIFyIkRDMz7lHKUAmI",
+    "scope": "GOOGLE",
+    "types": ["cafe", "food", "point_of_interest", "store", "establishment"],
+    "user_ratings_total": 603,
+    "vicinity": "100 West University Parkway, Baltimore"
+  },
+  {
+    "geometry": {
+      "location": { "lat": 39.28653479999999, "lng": -76.6073491 },
+      "viewport": {
+        "northeast": { "lat": 39.2879950302915, "lng": -76.60581281970849 },
+        "southwest": { "lat": 39.2852970697085, "lng": -76.6085107802915 }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+    "id": "caf821462340c68c8399e356eb24c7c0886e52b3",
+    "name": "Lucky's Coffee, Ice Cream and Candy",
+    "opening_hours": { "open_now": false },
+    "photos": [
+      {
+        "height": 1812,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101379377770783911976\">Lucky&#39;s Coffee, Ice Cream and Candy</a>"
+        ],
+        "photo_reference": "CmRaAAAANnHMCtS-8EZEmr7zz_dyGJQTXok8wmY7cmGUbw-wb-U01-peSWrKidfRpUt5hyTZhbDKLRBk98lFKt3JbF46e7yVSJWsxFVM7D4YgAfwt1v3SImc3QTvTPZja2etLni6EhBd1uegGjPSzji_P98eobSZGhQs4O9DTY4Ry4Qrf9FJkmJhnoONyw",
+        "width": 1812
+      }
+    ],
+    "place_id": "ChIJDTr7h34DyIkR9BeJIWRKqgo",
+    "plus_code": {
+      "compound_code": "79PV+J3 Baltimore, Maryland, United States",
+      "global_code": "87F579PV+J3"
+    },
+    "rating": 4.1,
+    "reference": "ChIJDTr7h34DyIkR9BeJIWRKqgo",
+    "scope": "GOOGLE",
+    "types": ["cafe", "food", "point_of_interest", "store", "establishment"],
+    "user_ratings_total": 120,
+    "vicinity": "601 East Pratt Street, Baltimore"
+  },
+  {
+    "geometry": {
+      "location": { "lat": 39.289429, "lng": -76.62075 },
+      "viewport": {
+        "northeast": { "lat": 39.2907739802915, "lng": -76.61949211970848 },
+        "southwest": { "lat": 39.2880760197085, "lng": -76.6221900802915 }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png",
+    "id": "7931cb7edffd7812a692362d617bb475eb79c97d",
+    "name": "Starbucks",
+    "opening_hours": { "open_now": false },
+    "photos": [
+      {
+        "height": 3872,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103344015127747369967\">Enduman</a>"
+        ],
+        "photo_reference": "CmRZAAAAt4toF3O2PEQBUxnnlvYfzNnEKSxI9Aqo5j6LM2-wcO11qJN_Cjxp851av4kgwTm5WuhTLmlDTMwwZcHo_dp-UDwHy0rUN2Pl5u9q81I15b6eWk1cOtSGtvLLqER8JuPqEhCaEIJQWu2yTtjESoDMf9EfGhSoPykwMGxFMxaZnx7onvacKOhd4Q",
+        "width": 7248
+      }
+    ],
+    "place_id": "ChIJQbgMY6AEyIkRz9BdZobXLSk",
+    "plus_code": {
+      "compound_code": "79QH+QM Baltimore, Maryland, United States",
+      "global_code": "87F579QH+QM"
+    },
+    "price_level": 2,
+    "rating": 4.2,
+    "reference": "ChIJQbgMY6AEyIkRz9BdZobXLSk",
+    "scope": "GOOGLE",
+    "types": ["cafe", "food", "point_of_interest", "store", "establishment"],
+    "user_ratings_total": 498,
+    "vicinity": "1 North Eutaw Street, Baltimore"
+  },
+  {
+    "geometry": {
+      "location": { "lat": 39.3638247, "lng": -76.60860749999999 },
+      "viewport": {
+        "northeast": { "lat": 39.36525478029149, "lng": -76.60725836970849 },
+        "southwest": { "lat": 39.36255681970849, "lng": -76.60995633029151 }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+    "id": "b6df722fad25895cf962f5877e0546075ea1f98f",
+    "name": "Atwater's Belvedere Square Market",
+    "opening_hours": { "open_now": false },
+    "photos": [
+      {
+        "height": 3456,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111893362289280014900\">Atwater&#39;s Belvedere Square Market</a>"
+        ],
+        "photo_reference": "CmRaAAAAHTYHtlUC9B1nFBMb9vqWzvK9V-6FThLmrN_FfKFF6GZI5VvC42iWkBsCPWsPH-czagd5dw3NlwmYWS5V4guo11wvkkSoe15vo8MrLed4cXv8Y9E0p2HdNIH0nPhufokVEhB1_zoBexxS81Gm3lzLCVOhGhR3cQFPeQTtJQGXRTr-fnPHZUtPQg",
+        "width": 5184
+      }
+    ],
+    "place_id": "ChIJB98hZWMFyIkRVJy-cMAJS9M",
+    "plus_code": {
+      "compound_code": "997R+GH Baltimore, Maryland, United States",
+      "global_code": "87F5997R+GH"
+    },
+    "price_level": 2,
+    "rating": 4.5,
+    "reference": "ChIJB98hZWMFyIkRVJy-cMAJS9M",
+    "scope": "GOOGLE",
+    "types": [
+      "bakery",
+      "meal_takeaway",
+      "cafe",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "store",
+      "establishment"
+    ],
+    "user_ratings_total": 486,
+    "vicinity": "529 East Belvedere Avenue #1, Baltimore"
+  },
+  {
+    "geometry": {
+      "location": { "lat": 39.28678, "lng": -76.602863 },
+      "viewport": {
+        "northeast": { "lat": 39.2881513302915, "lng": -76.60145216970851 },
+        "southwest": { "lat": 39.2854533697085, "lng": -76.60415013029152 }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+    "id": "4f08b0e4aadce331480c27594f4c72c0c2eebc19",
+    "name": "Vaccaro's Italian Pastry Shop, Little Italy",
+    "opening_hours": { "open_now": false },
+    "photos": [
+      {
+        "height": 1536,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109207878785310389187\">Vaccaro&#39;s Italian Pastry Shop, Little Italy</a>"
+        ],
+        "photo_reference": "CmRaAAAA6U5_AV76u1kd114bqHfZ2Uv_7scNlmbBbhdviVmOvuI0RFP4fkA6UALUMVpbzGKBDGjatpMGi0pi9nPkCwJw65yoP2baIaMVuLeLlG6Id4Ni3sEPLSHfOQK43ab7L_SoEhCl-u565AQLYxNuBd6HiQc0GhR0F_pTH7ST2SP-L6ISFXv2a0Az2w",
+        "width": 2048
+      }
+    ],
+    "place_id": "ChIJ8Y4kd4IEyIkRhAyUAW40LV4",
+    "plus_code": {
+      "compound_code": "79PW+PV Baltimore, Maryland, United States",
+      "global_code": "87F579PW+PV"
+    },
+    "price_level": 2,
+    "rating": 4.5,
+    "reference": "ChIJ8Y4kd4IEyIkRhAyUAW40LV4",
+    "scope": "GOOGLE",
+    "types": [
+      "bakery",
+      "cafe",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "store",
+      "establishment"
+    ],
+    "user_ratings_total": 1854,
+    "vicinity": "222 Albemarle Street, Baltimore"
+  },
+  {
+    "geometry": {
+      "location": { "lat": 39.31769800000001, "lng": -76.6151641 },
+      "viewport": {
+        "northeast": { "lat": 39.3191552302915, "lng": -76.6138239197085 },
+        "southwest": { "lat": 39.3164572697085, "lng": -76.61652188029151 }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+    "id": "9d7b196a03bf8359352bb9adb11c69bd62cf84be",
+    "name": "Terra Cafe",
+    "opening_hours": { "open_now": false },
+    "photos": [
+      {
+        "height": 2988,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104977745522924608287\">T Dove</a>"
+        ],
+        "photo_reference": "CmRaAAAAQyFyAoPxEGKdYqAOxB0cYfl6ibMD7tIG8QJyuSDGzO57qk8Zic8jx753-LtUyOHH-ZJ544COmLWeoD-CNDKFHSFz10GVxhgbpJrjngLEGLuph-NBU4mRlMn1ovA50XrYEhB12Yuav14Dih-FY4PZhaYWGhQp2gMJlkZS5dG1QwlyO4ob2iMZxw",
+        "width": 5312
+      }
+    ],
+    "place_id": "ChIJuUTXiegEyIkRaHPl2VO2Oqs",
+    "plus_code": {
+      "compound_code": "899M+3W Baltimore, Maryland, United States",
+      "global_code": "87F5899M+3W"
+    },
+    "price_level": 2,
+    "rating": 4.4,
+    "reference": "ChIJuUTXiegEyIkRaHPl2VO2Oqs",
+    "scope": "GOOGLE",
+    "types": [
+      "cafe",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 695,
+    "vicinity": "101 East 25th Street, Baltimore"
+  },
+  {
+    "geometry": {
+      "location": { "lat": 39.2988115, "lng": -76.6158994 },
+      "viewport": {
+        "northeast": { "lat": 39.3001633302915, "lng": -76.6144679697085 },
+        "southwest": { "lat": 39.2974653697085, "lng": -76.6171659302915 }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png",
+    "id": "f796d79684e70ba53e9575c9e2e7072347f50277",
+    "name": "Dooby's",
+    "opening_hours": { "open_now": false },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111125258642635408683\">nici vs</a>"
+        ],
+        "photo_reference": "CmRaAAAABNjiHsH6n2W1U4x-eazlqG710f1huIo7or01V3qdjCVtsm8hKKysblNogink3rElVEjuBODe7XQcYWDkcoglyEhHFsLiJHOGXE8fyGV6u_a1vjvUSeTLV9UY1BbqWX9uEhD7X2Escxgc7QP9hxQGzBNsGhTSZ64ZznnV0mJlmKWEX0JqzAWOpQ",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJyw8xm5cEyIkRquzJrtoXzNE",
+    "plus_code": {
+      "compound_code": "79XM+GJ Baltimore, Maryland, United States",
+      "global_code": "87F579XM+GJ"
+    },
+    "price_level": 2,
+    "rating": 4.5,
+    "reference": "ChIJyw8xm5cEyIkRquzJrtoXzNE",
+    "scope": "GOOGLE",
+    "types": ["cafe", "food", "point_of_interest", "establishment"],
+    "user_ratings_total": 622,
+    "vicinity": "802 North Charles Street, Baltimore"
+  },
+  {
+    "geometry": {
+      "location": { "lat": 39.3193782, "lng": -76.6197184 },
+      "viewport": {
+        "northeast": { "lat": 39.3207250802915, "lng": -76.6184264697085 },
+        "southwest": { "lat": 39.3180271197085, "lng": -76.6211244302915 }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png",
+    "id": "bcfc92d1cb1937287c24a137687e2fc68af70ae8",
+    "name": "Charmington's",
+    "opening_hours": { "open_now": false },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115918671905128934599\">Robert Cardoni</a>"
+        ],
+        "photo_reference": "CmRaAAAApI0u9QqyIZoq7Pe1CTBm7_UdptIB44WqfGlQt8sBZLmdkdbw3MO03WnS_PB6Ci36WtHm3fixeVmw3cpj9kiPjjYJ5i20WSfDQoOWzWr2iuV2n9TD_TBbeAt29NG_xDmzEhBlsPub4GTYpzbtxIABi9jwGhQok0IY0ozw9_-hGJu3W_D3e0ak7A",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJDz_uNd0EyIkRK_l1H20_-Pk",
+    "plus_code": {
+      "compound_code": "899J+Q4 Baltimore, Maryland, United States",
+      "global_code": "87F5899J+Q4"
+    },
+    "price_level": 1,
+    "rating": 4.4,
+    "reference": "ChIJDz_uNd0EyIkRK_l1H20_-Pk",
+    "scope": "GOOGLE",
+    "types": [
+      "cafe",
+      "meal_takeaway",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "store",
+      "establishment"
+    ],
+    "user_ratings_total": 257,
+    "vicinity": "2601 North Howard Street, Baltimore"
+  },
+  {
+    "geometry": {
+      "location": { "lat": 39.3006344, "lng": -76.6195486 },
+      "viewport": {
+        "northeast": { "lat": 39.3020666302915, "lng": -76.6182445697085 },
+        "southwest": { "lat": 39.2993686697085, "lng": -76.6209425302915 }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png",
+    "id": "569cabe2a5da9250dabe99a7b5fbe7c6ec39d6e7",
+    "name": "The Bun Shop",
+    "opening_hours": { "open_now": false },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103698130698276851826\">Sybilla Bakzaza</a>"
+        ],
+        "photo_reference": "CmRaAAAAG3kbCcRUwGR6HMDyyNbHRyu6c6iXP2YdpGDx9BECSkic-YkOa4xu4tYZtijKvZnINZs17f29_i9jtLpMo5XdC-tyFx5cAIp2yHgKHpRaVH6kwZB30h7a6GRaEOWUbmaVEhDzu7V9MRvANH983n1vc1WMGhTVrL3-O5206VtD3a-uB4x0Rye_sw",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJqZhObb0EyIkRvTU__rmcxP0",
+    "plus_code": {
+      "compound_code": "892J+75 Baltimore, Maryland, United States",
+      "global_code": "87F5892J+75"
+    },
+    "price_level": 1,
+    "rating": 4.5,
+    "reference": "ChIJqZhObb0EyIkRvTU__rmcxP0",
+    "scope": "GOOGLE",
+    "types": [
+      "cafe",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 665,
+    "vicinity": "239 West Read Street, Baltimore"
+  },
+  {
+    "geometry": {
+      "location": { "lat": 39.290334, "lng": -76.61925099999999 },
+      "viewport": {
+        "northeast": { "lat": 39.2916770302915, "lng": -76.61799926970849 },
+        "southwest": { "lat": 39.2889790697085, "lng": -76.6206972302915 }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+    "id": "01a1072da807cc3c4c0c09b7b21feed7f439b665",
+    "name": "McDonald's",
+    "opening_hours": { "open_now": false },
+    "photos": [
+      {
+        "height": 768,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110236968018533533517\">McDonald&#39;s</a>"
+        ],
+        "photo_reference": "CmRaAAAAyBFYxHnk7fFQJ6s0sazf7ATsj4THQpkfss4axQP5elBMJNuXYqgPteFhlNngWaWno_5_TgO01lvNchQf0z53bPoy48UMWseoGc5P9IdphegCywmor41MMaXDYIEwCqlaEhBwOKGCfEquM7FFSvY2inBoGhRiKhUII2DzWqeoVjOwFThmeDritw",
+        "width": 1025
+      }
+    ],
+    "place_id": "ChIJ90pUmaAEyIkRBY2Iwgp3OFI",
+    "plus_code": {
+      "compound_code": "79RJ+47 Baltimore, Maryland, United States",
+      "global_code": "87F579RJ+47"
+    },
+    "price_level": 1,
+    "rating": 3.2,
+    "reference": "ChIJ90pUmaAEyIkRBY2Iwgp3OFI",
+    "scope": "GOOGLE",
+    "types": [
+      "cafe",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "store",
+      "establishment"
+    ],
+    "user_ratings_total": 1260,
+    "vicinity": "25 North Howard Street, Baltimore"
+  },
+  {
+    "geometry": {
+      "location": { "lat": 39.3267917, "lng": -76.616344 },
+      "viewport": {
+        "northeast": { "lat": 39.32814843029151, "lng": -76.6148087697085 },
+        "southwest": { "lat": 39.32545046970851, "lng": -76.61750673029151 }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png",
+    "id": "d6fe29670b98eb8818bd43d9cc6a78dabfacaaab",
+    "name": "Carma's Cafe",
+    "opening_hours": { "open_now": false },
+    "photos": [
+      {
+        "height": 2268,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107926894330150994055\">Pouya Samangouei</a>"
+        ],
+        "photo_reference": "CmRaAAAA5WuZgzDv1xY6YiLfwF0ClsKXaTKxHXVKFeHHYX9Gb8R-4v_MY8cfPjsjypnsmri_NnRJYPUkyopTKVOtx5KRtga3GgG2ABsexua03bqVq685tD7KOpba7_tO7JQGDoDzEhB4sY78zwk8BufI2v6Kwg3eGhQqNi1132bdAMBRomylAW0YhEl1Yw",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJt0dMWuAEyIkRLJh1_9T4eRQ",
+    "plus_code": {
+      "compound_code": "89GM+PF Baltimore, Maryland, United States",
+      "global_code": "87F589GM+PF"
+    },
+    "price_level": 1,
+    "rating": 4.5,
+    "reference": "ChIJt0dMWuAEyIkRLJh1_9T4eRQ",
+    "scope": "GOOGLE",
+    "types": [
+      "cafe",
+      "meal_takeaway",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 297,
+    "vicinity": "3120 Saint Paul Street #7, Baltimore"
+  },
+  {
+    "geometry": {
+      "location": { "lat": 39.330997, "lng": -76.630772 },
+      "viewport": {
+        "northeast": { "lat": 39.3324425302915, "lng": -76.62942741970848 },
+        "southwest": { "lat": 39.3297445697085, "lng": -76.63212538029148 }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png",
+    "id": "31946f7b6d5aa272fd18c7ef58e6006af0d196cb",
+    "name": "Spro Coffee",
+    "opening_hours": { "open_now": false },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117586402609325146866\">Jesse Thomas</a>"
+        ],
+        "photo_reference": "CmRaAAAAdhhIgtgPWc6bcrxkl6xyS2B2KB7JtXvbk9cYLqiSHbaLhntDmG5IAQFhxvYBjely2iBkkxAYeaHToOOiQNiDaLwhewqtqPPi7At-Dkysjsbep1AJYHLctyEAVeEwPMDnEhA4q0cmG6ynGLjiXlTAnz8jGhSPTeOxniXbvwMcBEV6pmailLNVYA",
+        "width": 3024
+      }
+    ],
+    "place_id": "ChIJg1QtGigFyIkRF2MFlaLTN4w",
+    "plus_code": {
+      "compound_code": "89J9+9M Baltimore, Maryland, United States",
+      "global_code": "87F589J9+9M"
+    },
+    "price_level": 1,
+    "rating": 4.3,
+    "reference": "ChIJg1QtGigFyIkRF2MFlaLTN4w",
+    "scope": "GOOGLE",
+    "types": ["cafe", "food", "point_of_interest", "store", "establishment"],
+    "user_ratings_total": 171,
+    "vicinity": "851 West 36th Street, Baltimore"
+  },
+  {
+    "geometry": {
+      "location": { "lat": 39.2961769, "lng": -76.5931492 },
+      "viewport": {
+        "northeast": { "lat": 39.29758958029149, "lng": -76.5918037197085 },
+        "southwest": { "lat": 39.2948916197085, "lng": -76.5945016802915 }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png",
+    "id": "0519812ab908b94315e0bb51dd7a53224fb74063",
+    "name": "Grand Grounds",
+    "opening_hours": { "open_now": false },
+    "photos": [
+      {
+        "height": 636,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114451592591287598101\">Ali Brown</a>"
+        ],
+        "photo_reference": "CmRaAAAABA_yRDcVWEIbQ1XGlSLBZSp6sQomrODJf5osvTHVRHMnXm86wbmoy5bXGky-vmjKZsltgzoYP3M3g0XYvdDHnfbK_mPuLR2e7zybz6eaLMV-RjqYtVg62xCy5z5TZ5ReEhCkIhSsMkOjdZqbZ3uqrMSGGhRAS03SCAECw8MLHzKPDqxTBn-z6Q",
+        "width": 932
+      }
+    ],
+    "place_id": "ChIJfVPJFIgEyIkRFiET27w9asQ",
+    "plus_code": {
+      "compound_code": "7CW4+FP Baltimore, Maryland, United States",
+      "global_code": "87F57CW4+FP"
+    },
+    "rating": 4.1,
+    "reference": "ChIJfVPJFIgEyIkRFiET27w9asQ",
+    "scope": "GOOGLE",
+    "types": ["cafe", "food", "point_of_interest", "store", "establishment"],
+    "user_ratings_total": 48,
+    "vicinity": "Johns Hopkins Outpatient Center, 600 North Wolfe Street, Baltimore"
+  },
+  {
+    "geometry": {
+      "location": { "lat": 39.3106868, "lng": -76.6171449 },
+      "viewport": {
+        "northeast": { "lat": 39.3121914802915, "lng": -76.61580671970849 },
+        "southwest": { "lat": 39.3094935197085, "lng": -76.61850468029151 }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+    "id": "6c4e73429553cca8a7717cdae0fa95acc1e2e54f",
+    "name": "McDonald's",
+    "opening_hours": { "open_now": false },
+    "photos": [
+      {
+        "height": 768,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114876936193995732834\">McDonald&#39;s</a>"
+        ],
+        "photo_reference": "CmRaAAAA_m3fKsAiI9j2ig7O-Eu4Ja3N6a5LMQ7-O_3m9gJR0uDQlxC_oZLiR1hTLEWZGGCIIXO1mAn_JwFoVx8XbuqSs_fE4nUS7IfxocKcSkgJPaS_4szV72ZFW1Kbtb_nkLDVEhDaBBOC8s6pMC3i52VAMtXrGhQ8SKv-WsyVDHMRgCkTiHooW8-s3A",
+        "width": 1025
+      }
+    ],
+    "place_id": "ChIJ0xWSjuoEyIkRhfDibo0eZjg",
+    "plus_code": {
+      "compound_code": "896M+74 Baltimore, Maryland, United States",
+      "global_code": "87F5896M+74"
+    },
+    "price_level": 1,
+    "rating": 3,
+    "reference": "ChIJ0xWSjuoEyIkRhfDibo0eZjg",
+    "scope": "GOOGLE",
+    "types": [
+      "cafe",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "store",
+      "establishment"
+    ],
+    "user_ratings_total": 1622,
+    "vicinity": "15 West North Avenue, Baltimore"
+  },
+  {
+    "geometry": {
+      "location": { "lat": 39.3310272, "lng": -76.63000889999999 },
+      "viewport": {
+        "northeast": { "lat": 39.3324704802915, "lng": -76.6286585197085 },
+        "southwest": { "lat": 39.3297725197085, "lng": -76.6313564802915 }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png",
+    "id": "a23c7fa225462dc444016899c1e97bfa6b1d371c",
+    "name": "Common Ground",
+    "opening_hours": { "open_now": false },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107521107748764476517\">Sheila Matano</a>"
+        ],
+        "photo_reference": "CmRaAAAALPj-SZiRBcMJnsXprCO-cXd5fLhPqQA0PUjYdTsYTxQI0b6NpO9gM1B_nfrBLvDCNa6uLAjjiQOp3mkl5mOd8rc7b60Q29EKaW5CpKD_D31SBIX6LWTYx0CxvrIF2HPoEhDsrKfVoNun0t1n3TdvR1lPGhTX5nW2dv1lUYfBKJH-MNcmD-pRUQ",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJDUf1BigFyIkR4zA3HJd7_Nk",
+    "plus_code": {
+      "compound_code": "89J9+CX Baltimore, Maryland, United States",
+      "global_code": "87F589J9+CX"
+    },
+    "price_level": 1,
+    "rating": 4.6,
+    "reference": "ChIJDUf1BigFyIkR4zA3HJd7_Nk",
+    "scope": "GOOGLE",
+    "types": ["cafe", "food", "point_of_interest", "store", "establishment"],
+    "user_ratings_total": 238,
+    "vicinity": "819 West 36th Street, Baltimore"
+  },
+  {
+    "geometry": {
+      "location": { "lat": 39.3405168, "lng": -76.5905897 },
+      "viewport": {
+        "northeast": { "lat": 39.3418895302915, "lng": -76.58923781970849 },
+        "southwest": { "lat": 39.3391915697085, "lng": -76.5919357802915 }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+    "id": "921fd7aa4c4361ebf9cb7b9b7158afbef2b35941",
+    "name": "McDonald's",
+    "opening_hours": { "open_now": false },
+    "photos": [
+      {
+        "height": 768,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108018742953403291105\">McDonald&#39;s</a>"
+        ],
+        "photo_reference": "CmRaAAAA1IlTmxuxewdGDPVw1I_jhkxXfXIT0-hWO8xcmSRKXMRsWHIm3_TLbJkfRJczx0Vp5s48XQSywrzE6rW2-89byjOE7jjACLVd02OtKG4rEqDFSLTfLsRFp8q-7IDk1R42EhCQ-Fw4xRvDSnoGM9QqZJUCGhQm-OhQc1X1AnDy4qgr5z7ng6dz3Q",
+        "width": 1025
+      }
+    ],
+    "place_id": "ChIJSUakuKYFyIkRQrl5lBlG6hk",
+    "plus_code": {
+      "compound_code": "8CR5+6Q Baltimore, Maryland, United States",
+      "global_code": "87F58CR5+6Q"
+    },
+    "price_level": 1,
+    "rating": 3,
+    "reference": "ChIJSUakuKYFyIkRQrl5lBlG6hk",
+    "scope": "GOOGLE",
+    "types": [
+      "cafe",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "store",
+      "establishment"
+    ],
+    "user_ratings_total": 691,
+    "vicinity": "1600 Argonne Drive, Baltimore"
+  }
+]

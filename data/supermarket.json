@@ -1,0 +1,839 @@
+[
+  {
+    "geometry": {
+      "location": { "lat": 39.29197569999999, "lng": -76.6223422 },
+      "viewport": {
+        "northeast": { "lat": 39.2930555302915, "lng": -76.6210406197085 },
+        "southwest": { "lat": 39.2903575697085, "lng": -76.6237385802915 }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+    "id": "c767297156aa1b85c5825a8febdd48232bd7cee9",
+    "name": "Lexington Market",
+    "opening_hours": { "open_now": false },
+    "photos": [
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104251826030050029808\">David Nejedl\u00fd</a>"
+        ],
+        "photo_reference": "CmRaAAAAUZBY2RxMuxmepm5m-RNqKUK0uEdprE1uTtxtA4YYYjJ9uHwgyvhcP-J27I7j7dGcsbOb6RZ1_1PN_TWCJ_rAkZHTBh9NN31HSZLfQ9YZee2CYBIfhruIRAZ5iwDmIH9iEhDjcrU5DzFEvLAWdOztUf9fGhSpM-IGs8_f1XpPqf4VMGYSv4wl7g",
+        "width": 6000
+      }
+    ],
+    "place_id": "ChIJw8_LAaEEyIkRPBllZ1PBhi0",
+    "plus_code": {
+      "compound_code": "79RH+Q3 Baltimore, Maryland, United States",
+      "global_code": "87F579RH+Q3"
+    },
+    "price_level": 2,
+    "rating": 3.7,
+    "reference": "ChIJw8_LAaEEyIkRPBllZ1PBhi0",
+    "scope": "GOOGLE",
+    "types": [
+      "supermarket",
+      "atm",
+      "tourist_attraction",
+      "grocery_or_supermarket",
+      "finance",
+      "food",
+      "point_of_interest",
+      "store",
+      "establishment"
+    ],
+    "user_ratings_total": 8035,
+    "vicinity": "400 West Lexington Street, Baltimore"
+  },
+  {
+    "geometry": {
+      "location": { "lat": 39.31685959999999, "lng": -76.6538865 },
+      "viewport": {
+        "northeast": { "lat": 39.31820973029149, "lng": -76.6523101197085 },
+        "southwest": { "lat": 39.31551176970849, "lng": -76.65500808029151 }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+    "id": "2e86020339b2c1ad7a998b1ca51f5628d8f58ad5",
+    "name": "Metro Sundries",
+    "opening_hours": { "open_now": false },
+    "place_id": "ChIJty-KPDobyIkR07GcUm2IeZM",
+    "plus_code": {
+      "compound_code": "888W+PC Baltimore, Maryland, United States",
+      "global_code": "87F5888W+PC"
+    },
+    "rating": 3.8,
+    "reference": "ChIJty-KPDobyIkR07GcUm2IeZM",
+    "scope": "GOOGLE",
+    "types": [
+      "supermarket",
+      "grocery_or_supermarket",
+      "food",
+      "point_of_interest",
+      "store",
+      "establishment"
+    ],
+    "user_ratings_total": 11,
+    "vicinity": "2401 Liberty Heights Avenue, Baltimore"
+  },
+  {
+    "geometry": {
+      "location": { "lat": 39.3169413, "lng": -76.6524343 },
+      "viewport": {
+        "northeast": { "lat": 39.31807853029149, "lng": -76.65096626970849 },
+        "southwest": { "lat": 39.31538056970849, "lng": -76.6536642302915 }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+    "id": "05ee1db438fd18c6f6eec5a687fa5d927b841dae",
+    "name": "Shoppers",
+    "opening_hours": { "open_now": false },
+    "photos": [
+      {
+        "height": 1080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113063606335621799660\">J Daniels</a>"
+        ],
+        "photo_reference": "CmRaAAAAuSQKcBwu2Gmk2GbJIsHInoIs4vSuXho1rqoYawiCkzm0ce9zi5t6UfLBM9Sqv2DN4AdN4pASMboMA2TJGJkRMNFv896XKxTeMe359s1RVw06RTSxbrBgoC7IDmF6fTRvEhD8zsjUHt-SOdadhYMEIG9pGhQNLv2LRwncUDsgYKSsnej1HJqo6g",
+        "width": 1920
+      }
+    ],
+    "place_id": "ChIJCcxacDcbyIkRDwB7GKXBtog",
+    "plus_code": {
+      "compound_code": "888X+Q2 Baltimore, Maryland, United States",
+      "global_code": "87F5888X+Q2"
+    },
+    "rating": 4,
+    "reference": "ChIJCcxacDcbyIkRDwB7GKXBtog",
+    "scope": "GOOGLE",
+    "types": [
+      "grocery_or_supermarket",
+      "atm",
+      "pharmacy",
+      "supermarket",
+      "finance",
+      "food",
+      "health",
+      "point_of_interest",
+      "store",
+      "establishment"
+    ],
+    "user_ratings_total": 747,
+    "vicinity": "2000 Gwynns Falls Parkway, Baltimore"
+  },
+  {
+    "geometry": {
+      "location": { "lat": 39.326478, "lng": -76.6156321 },
+      "viewport": {
+        "northeast": { "lat": 39.3278228302915, "lng": -76.61438721970849 },
+        "southwest": { "lat": 39.3251248697085, "lng": -76.6170851802915 }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+    "id": "713d1a847144e0866a1b1c4a7c6d7b69ce6eebd1",
+    "name": "Eddie's Market",
+    "opening_hours": { "open_now": false },
+    "photos": [
+      {
+        "height": 2340,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108300254944466330074\">Joshua Berlow</a>"
+        ],
+        "photo_reference": "CmRaAAAAeIHorhiPxuedbRPSwCBnN4ZTtnoLTJfqur8KU0fSNMls0AcvFdaQtIBZlc4jh4Jc4tWwiur5MTFD8EHIC5ueExirV8g_aoxCfm9c-hcNqEwulgPbPOg5CnbGhFG2P_3TEhAcSfLEsN57bENFLErARcHpGhSBRhujBk61w-xs4QHZgcUkoxRYxw",
+        "width": 4160
+      }
+    ],
+    "place_id": "ChIJVQMgV-AEyIkRmGdUE765540",
+    "plus_code": {
+      "compound_code": "89GM+HP Baltimore, Maryland, United States",
+      "global_code": "87F589GM+HP"
+    },
+    "rating": 4.3,
+    "reference": "ChIJVQMgV-AEyIkRmGdUE765540",
+    "scope": "GOOGLE",
+    "types": [
+      "grocery_or_supermarket",
+      "supermarket",
+      "food",
+      "point_of_interest",
+      "store",
+      "establishment"
+    ],
+    "user_ratings_total": 391,
+    "vicinity": "3117 Saint Paul Street, Baltimore"
+  },
+  {
+    "geometry": {
+      "location": { "lat": 39.3223438, "lng": -76.6087324 },
+      "viewport": {
+        "northeast": { "lat": 39.3236933802915, "lng": -76.6077431197085 },
+        "southwest": { "lat": 39.3209954197085, "lng": -76.61044108029151 }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+    "id": "39c1f4a25b6d6b6c11450e1b808896b26d2f6802",
+    "name": "Family Dollar",
+    "opening_hours": { "open_now": false },
+    "photos": [
+      {
+        "height": 1944,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116393118601736712639\">Antwan Venable</a>"
+        ],
+        "photo_reference": "CmRaAAAAuZoLy3kTn8BRnAYaGxlyjBWyVeKur8OfxwKOlSGe50xaXSrtuULta_OskrvT4Fy-nOZ2OW2uADRGt0oJGTu39CJup02qAeA08gvP3P_WPPWFxj6QqHpYeN3Wvr8P2t9uEhDl3pZ9V_Zr75-cg3uniCp7GhS9yrW2Lbr-RUz_SVEX5yuWag09cg",
+        "width": 2592
+      }
+    ],
+    "place_id": "ChIJUZL5feMEyIkRkNiW7tzxpCs",
+    "plus_code": {
+      "compound_code": "89CR+WG Baltimore, Maryland, United States",
+      "global_code": "87F589CR+WG"
+    },
+    "price_level": 1,
+    "rating": 3,
+    "reference": "ChIJUZL5feMEyIkRkNiW7tzxpCs",
+    "scope": "GOOGLE",
+    "types": [
+      "supermarket",
+      "grocery_or_supermarket",
+      "food",
+      "point_of_interest",
+      "clothing_store",
+      "store",
+      "establishment"
+    ],
+    "user_ratings_total": 83,
+    "vicinity": "2813 Greenmount Avenue, Baltimore"
+  },
+  {
+    "geometry": {
+      "location": { "lat": 39.3008333, "lng": -76.6166667 },
+      "viewport": {
+        "northeast": { "lat": 39.30225113029149, "lng": -76.6153192697085 },
+        "southwest": { "lat": 39.2995531697085, "lng": -76.61801723029151 }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+    "id": "6f7a522649e569dde2fe0f1087bf34a0e94a6d62",
+    "name": "Eddie's of Mount Vernon",
+    "opening_hours": { "open_now": false },
+    "photos": [
+      {
+        "height": 2848,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116107508554521191167\">Elvert Barnes</a>"
+        ],
+        "photo_reference": "CmRaAAAAEMadXAHAgceKN96GHaaTfy5y6tO_4VFv-kN0HAHJ8NiDoUOPokP8KIoNSFh6KDLxkjPj8YP1dXCTB6JmBPSpB7-b7gJCs5a7b0pBQhfnLAxsf0jBLooB1ESyL8fDEdy4EhBUIGHTdkkL7WD_JcJXG_NbGhT3sSLwd2eH7t5DWB99s-cAmmmXTA",
+        "width": 4272
+      }
+    ],
+    "place_id": "ChIJzyCsypcEyIkRdFXPxH2gX7w",
+    "plus_code": {
+      "compound_code": "892M+88 Baltimore, Maryland, United States",
+      "global_code": "87F5892M+88"
+    },
+    "rating": 4.1,
+    "reference": "ChIJzyCsypcEyIkRdFXPxH2gX7w",
+    "scope": "GOOGLE",
+    "types": [
+      "grocery_or_supermarket",
+      "supermarket",
+      "food",
+      "point_of_interest",
+      "store",
+      "establishment"
+    ],
+    "user_ratings_total": 417,
+    "vicinity": "7 West Eager Street, Baltimore"
+  },
+  {
+    "geometry": {
+      "location": { "lat": 39.29228479999999, "lng": -76.59929869999999 },
+      "viewport": {
+        "northeast": { "lat": 39.2938084802915, "lng": -76.59785766970847 },
+        "southwest": { "lat": 39.2911105197085, "lng": -76.60055563029148 }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+    "id": "245e264778c5136c6d286d8b9d53a281a1a496a4",
+    "name": "Family Dollar",
+    "opening_hours": { "open_now": false },
+    "photos": [
+      {
+        "height": 800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108526022084689638113\">Michael Whitfield</a>"
+        ],
+        "photo_reference": "CmRaAAAAfGOg1z4ctkgxabDyoQkDxaMPgsU-LSxhT-BMhyMMPg4SnHyIKNjt0kTAAf63lTTSEZJUF6A2vGOKpYBb4BrktkkUt5D7lQz2GNaEnVBCparErNboR2RhmvYysNL_cgipEhDnYQVfLbwy5hl6YdsBeI29GhRiip_ySfHsMBU2vaI1dyb7FxjjFA",
+        "width": 600
+      }
+    ],
+    "place_id": "ChIJL8B7voYEyIkR7Ah86bIhRzQ",
+    "plus_code": {
+      "compound_code": "7CR2+W7 Baltimore, Maryland, United States",
+      "global_code": "87F57CR2+W7"
+    },
+    "price_level": 1,
+    "rating": 3.8,
+    "reference": "ChIJL8B7voYEyIkR7Ah86bIhRzQ",
+    "scope": "GOOGLE",
+    "types": [
+      "supermarket",
+      "grocery_or_supermarket",
+      "food",
+      "point_of_interest",
+      "clothing_store",
+      "store",
+      "establishment"
+    ],
+    "user_ratings_total": 221,
+    "vicinity": "1301 East Fayette Street, Baltimore"
+  },
+  {
+    "geometry": {
+      "location": { "lat": 39.327927, "lng": -76.61160199999999 },
+      "viewport": {
+        "northeast": { "lat": 39.3294270302915, "lng": -76.6102613697085 },
+        "southwest": { "lat": 39.3267290697085, "lng": -76.6129593302915 }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+    "id": "43893f244b77a28fd3eeb29334f1289b9bf8c62e",
+    "name": "Punjab Groceries & Halal Meat",
+    "opening_hours": { "open_now": false },
+    "photos": [
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108300254944466330074\">Joshua Berlow</a>"
+        ],
+        "photo_reference": "CmRaAAAAOkZmykZFPcXbR3Dc8tCTdVZBOiNmRsO3yxMKc95T6024N9piPPvEmN7cAZg75HHLERZB48A8BIUYkvTOjhXS5kGNRNkSIBPpG3FDYzz4Tr8YoGzL6-8tRE7dJSTHRVacEhB_rxYtnLIpq7wvBPMmm-7zGhQ0h3YQOmuSXvZmH4YmE0LA7wUeZA",
+        "width": 6000
+      }
+    ],
+    "place_id": "ChIJN5fvD-IEyIkR_PMsqltrDh4",
+    "plus_code": {
+      "compound_code": "89HQ+59 Baltimore, Maryland, United States",
+      "global_code": "87F589HQ+59"
+    },
+    "rating": 4.3,
+    "reference": "ChIJN5fvD-IEyIkR_PMsqltrDh4",
+    "scope": "GOOGLE",
+    "types": [
+      "supermarket",
+      "grocery_or_supermarket",
+      "food",
+      "point_of_interest",
+      "store",
+      "establishment"
+    ],
+    "user_ratings_total": 416,
+    "vicinity": "345 East 33rd Street, Baltimore"
+  },
+  {
+    "geometry": {
+      "location": { "lat": 39.35588249999999, "lng": -76.6342456 },
+      "viewport": {
+        "northeast": { "lat": 39.3572210802915, "lng": -76.63305496970848 },
+        "southwest": { "lat": 39.3545231197085, "lng": -76.63575293029149 }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+    "id": "1288456dc539a69ddb0c8b774857f47fb635f8e2",
+    "name": "Eddie's of Roland Park",
+    "opening_hours": { "open_now": false },
+    "photos": [
+      {
+        "height": 2009,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101416524798905959228\">Lowell Larsson</a>"
+        ],
+        "photo_reference": "CmRaAAAAA0fXvi66hAn7oOsmXQz-djU6wo7JXzuPY-n1vHLO4E3hmLUIFvI95sUzN0Lo_ZMacmdr1bdnJZ81V9XW3spxvOKB9Yrf5jipQEZPqOk0Gc0pvAVG4GXZYnx2JriEzOdKEhDxQegRxbWHf-7G-GqNrxG2GhQrnSTK9gOGzBIzcK48VcKV6yVbtA",
+        "width": 2841
+      }
+    ],
+    "place_id": "ChIJTw4JT0kFyIkR8_6bKIaQSQ4",
+    "plus_code": {
+      "compound_code": "9948+98 Baltimore, Maryland, United States",
+      "global_code": "87F59948+98"
+    },
+    "price_level": 3,
+    "rating": 4.4,
+    "reference": "ChIJTw4JT0kFyIkR8_6bKIaQSQ4",
+    "scope": "GOOGLE",
+    "types": [
+      "bakery",
+      "supermarket",
+      "grocery_or_supermarket",
+      "liquor_store",
+      "food",
+      "point_of_interest",
+      "store",
+      "establishment"
+    ],
+    "user_ratings_total": 320,
+    "vicinity": "5113 Roland Avenue, Baltimore"
+  },
+  {
+    "geometry": {
+      "location": { "lat": 39.33630830000001, "lng": -76.6308361 },
+      "viewport": {
+        "northeast": { "lat": 39.33765348029149, "lng": -76.62955371970848 },
+        "southwest": { "lat": 39.33495551970849, "lng": -76.6322516802915 }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+    "id": "0be5cbc89a35c80d31dee3e03b7bd03d7641686d",
+    "name": "MOM's Organic Market",
+    "opening_hours": { "open_now": false },
+    "photos": [
+      {
+        "height": 1440,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101421928971916343011\">Diego Fernando S\u00e1nchez Mart\u00ednez</a>"
+        ],
+        "photo_reference": "CmRZAAAANjYBcCTz6MmC6hC4wHnKw-EKtw2B-YjHoM4nxeNjFGC3DwjijLhAjh-JwrwPgCuJsGBv_oWfzTEutvcFnZf65hPmWlJ68vAo00Wi1PsAgV2ONHv_pIWqWCJoVnfYgQ21EhAV3Ff-u2hemvOOFeMyaiT5GhTV9TIOKRt8swZwxfF_vzUs1UHRvw",
+        "width": 2560
+      }
+    ],
+    "place_id": "ChIJmWMSUC8FyIkREjUO0cyQ1Ck",
+    "plus_code": {
+      "compound_code": "89P9+GM Baltimore, Maryland, United States",
+      "global_code": "87F589P9+GM"
+    },
+    "rating": 4.6,
+    "reference": "ChIJmWMSUC8FyIkREjUO0cyQ1Ck",
+    "scope": "GOOGLE",
+    "types": [
+      "grocery_or_supermarket",
+      "supermarket",
+      "food",
+      "point_of_interest",
+      "store",
+      "establishment"
+    ],
+    "user_ratings_total": 813,
+    "vicinity": "711 West 40th Street #163, Baltimore"
+  },
+  {
+    "geometry": {
+      "location": { "lat": 39.3458029, "lng": -76.59305300000001 },
+      "viewport": {
+        "northeast": { "lat": 39.3472093302915, "lng": -76.5917276697085 },
+        "southwest": { "lat": 39.3445113697085, "lng": -76.59442563029151 }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+    "id": "59a0ef782c1af470a108a818324f72e1da8e2bb1",
+    "name": "Family Dollar",
+    "opening_hours": { "open_now": false },
+    "photos": [
+      {
+        "height": 1920,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104290447620049366444\">Bertha Anderson</a>"
+        ],
+        "photo_reference": "CmRaAAAA0wPdSgk_K8dER6ashvi3yqX_yF_m_2XjPkfeDegLe3WAL0h0PUdtrcnIlM8BLW1116BNggCEAVoR5qcOouV7-upQAd8SsemLbvgi6yfS1twqKlbTq6Q8PNB9lD9CBtiZEhBvaaXaAZxfrQPsgERPwb-cGhSeuMhu8-cL_TxpeUevcSn_pesD0A",
+        "width": 1080
+      }
+    ],
+    "place_id": "ChIJgfn-OqAFyIkR7CarhgUv7Ts",
+    "plus_code": {
+      "compound_code": "8CW4+8Q Baltimore, Maryland, United States",
+      "global_code": "87F58CW4+8Q"
+    },
+    "price_level": 1,
+    "rating": 3.4,
+    "reference": "ChIJgfn-OqAFyIkR7CarhgUv7Ts",
+    "scope": "GOOGLE",
+    "types": [
+      "supermarket",
+      "grocery_or_supermarket",
+      "food",
+      "point_of_interest",
+      "clothing_store",
+      "store",
+      "establishment"
+    ],
+    "user_ratings_total": 129,
+    "vicinity": "1415 East Cold Spring Lane, Baltimore"
+  },
+  {
+    "geometry": {
+      "location": { "lat": 39.334497, "lng": -76.66314 },
+      "viewport": {
+        "northeast": { "lat": 39.33592318029149, "lng": -76.66160066970849 },
+        "southwest": { "lat": 39.3332252197085, "lng": -76.6642986302915 }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+    "id": "87567ac02b402eec500d6dd81ccd5b5069af6d97",
+    "name": "Food City",
+    "opening_hours": { "open_now": true },
+    "photos": [
+      {
+        "height": 4096,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112220618048138195268\">Derwin D. Brown Sr.</a>"
+        ],
+        "photo_reference": "CmRaAAAARoeYN5ELJRttOkw0sYCLN2UMPIRe0FC65K8O0MQQ5IhKSHfEuhQ0ktX05sWltOxRt5oTKY5NvUZ-99QONw7Ep9imkTYs5wsfxp-W44SGAn9JVhTMyE6Fs0g16fnuQcmoEhCglKgtzWbXaKYfSs2hvPDAGhQh5mIGQ-ec1nIv-ucJYA5KFlTCMQ",
+        "width": 2304
+      }
+    ],
+    "place_id": "ChIJj2-v9d8ayIkREbkgFYGc62c",
+    "plus_code": {
+      "compound_code": "88MP+QP Baltimore, Maryland, United States",
+      "global_code": "87F588MP+QP"
+    },
+    "price_level": 2,
+    "rating": 3.1,
+    "reference": "ChIJj2-v9d8ayIkREbkgFYGc62c",
+    "scope": "GOOGLE",
+    "types": [
+      "grocery_or_supermarket",
+      "supermarket",
+      "food",
+      "point_of_interest",
+      "store",
+      "establishment"
+    ],
+    "user_ratings_total": 47,
+    "vicinity": "4000 Park Heights Avenue, Baltimore"
+  },
+  {
+    "geometry": {
+      "location": { "lat": 39.3165293, "lng": -76.6581863 },
+      "viewport": {
+        "northeast": { "lat": 39.31789253029149, "lng": -76.65678646970849 },
+        "southwest": { "lat": 39.3151945697085, "lng": -76.6594844302915 }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+    "id": "a061b033a697309a0ccbb3f97a69b89f3f54d96f",
+    "name": "Family Dollar",
+    "opening_hours": { "open_now": false },
+    "photos": [
+      {
+        "height": 1932,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105900159600437076449\">Zaneta Jones</a>"
+        ],
+        "photo_reference": "CmRaAAAA1k_SKHy8TeXiK4TAuu59W91N6cBdjpmSoddiYPUJzu3yiDLKy-Ohpr8SVPYRAWVaCQOh-aA7z9IqrsqGM5YFwsc6rAJKCcUaHHUdDvjhiSQmRyw-jZIM1mkMxLbETtRKEhA5gBRqDgZvUeHKoe4e43mgGhSrIaxAOgQNBDzhWpe-e-gQOI1qEQ",
+        "width": 2576
+      }
+    ],
+    "place_id": "ChIJmw9eMjkbyIkRYCjKv1EMP9k",
+    "plus_code": {
+      "compound_code": "888R+JP Baltimore, Maryland, United States",
+      "global_code": "87F5888R+JP"
+    },
+    "price_level": 1,
+    "rating": 3.9,
+    "reference": "ChIJmw9eMjkbyIkRYCjKv1EMP9k",
+    "scope": "GOOGLE",
+    "types": [
+      "supermarket",
+      "grocery_or_supermarket",
+      "food",
+      "point_of_interest",
+      "clothing_store",
+      "store",
+      "establishment"
+    ],
+    "user_ratings_total": 204,
+    "vicinity": "2500 Gwynns Falls Parkway, Baltimore"
+  },
+  {
+    "geometry": {
+      "location": { "lat": 39.3581076, "lng": -76.59612969999999 },
+      "viewport": {
+        "northeast": { "lat": 39.3594072802915, "lng": -76.59461631970849 },
+        "southwest": { "lat": 39.3567093197085, "lng": -76.5973142802915 }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+    "id": "9e2c3735a20f8c57eb6974d27c9f51cca779892b",
+    "name": "Shoppers",
+    "opening_hours": { "open_now": false },
+    "photos": [
+      {
+        "height": 3984,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106358396971933305540\">Prez Morsell</a>"
+        ],
+        "photo_reference": "CmRaAAAA2TzmryJlTmgqUFD_coQvFr6UHxGQkliEpFg3hCGu-uuzGY4Gacu-R_Wrq8XWwvv37TP5Z0dqMYp1dXEy2oCYOzSzyBFzIwcwCDFAvMxoiXxFbuPcWyJF5b85ti8qH-HZEhDku1sTqb0obZ1nK7aWT86BGhTo3t19wMza8XK67K6H6hoN7YkB7A",
+        "width": 2988
+      }
+    ],
+    "place_id": "ChIJEQI-bXgFyIkRoKfSrY0EcMM",
+    "plus_code": {
+      "compound_code": "9C53+6G Baltimore, Maryland, United States",
+      "global_code": "87F59C53+6G"
+    },
+    "rating": 3.7,
+    "reference": "ChIJEQI-bXgFyIkRoKfSrY0EcMM",
+    "scope": "GOOGLE",
+    "types": [
+      "grocery_or_supermarket",
+      "supermarket",
+      "food",
+      "point_of_interest",
+      "store",
+      "establishment"
+    ],
+    "user_ratings_total": 479,
+    "vicinity": "5600 The Alameda, Baltimore"
+  },
+  {
+    "geometry": {
+      "location": { "lat": 39.318163, "lng": -76.576461 },
+      "viewport": {
+        "northeast": { "lat": 39.3195749302915, "lng": -76.5751134197085 },
+        "southwest": { "lat": 39.3168769697085, "lng": -76.57781138029151 }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+    "id": "03405c129392a61a3e6ec716f858e3ebae8defce",
+    "name": "Food Depot",
+    "opening_hours": { "open_now": false },
+    "photos": [
+      {
+        "height": 2988,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112180204292038453529\">Chance Ofaliftime</a>"
+        ],
+        "photo_reference": "CmRaAAAA8Vjk9pFH3fNRvfcmpg6ecCkZA1D3OsRngYwDxaijePxeuoOVzcH-whwOL23IsX1OkE3Jm9Qu6BLtsI-hAdq2FROFCC3b2OdsGmDCUHmkv_VInXxYkkfX_-24P68lUpK9EhB0jq1sAhgdmDl33lJMDSOHGhSkNWhqyy_dnTEybus3sbcqv0hMiA",
+        "width": 3984
+      }
+    ],
+    "place_id": "ChIJWV7vQUkEyIkRO67noZJvQZw",
+    "plus_code": {
+      "compound_code": "8C9F+7C Baltimore, Maryland, United States",
+      "global_code": "87F58C9F+7C"
+    },
+    "rating": 3.8,
+    "reference": "ChIJWV7vQUkEyIkRO67noZJvQZw",
+    "scope": "GOOGLE",
+    "types": [
+      "supermarket",
+      "atm",
+      "grocery_or_supermarket",
+      "finance",
+      "food",
+      "point_of_interest",
+      "store",
+      "establishment"
+    ],
+    "user_ratings_total": 645,
+    "vicinity": "2401 Belair Road #100, Baltimore"
+  },
+  {
+    "geometry": {
+      "location": { "lat": 39.3548039, "lng": -76.6096488 },
+      "viewport": {
+        "northeast": { "lat": 39.35615088029149, "lng": -76.60841336970849 },
+        "southwest": { "lat": 39.3534529197085, "lng": -76.61111133029151 }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+    "id": "892efa8f34a5100a9a1b5254d5d1f4542a4ddca7",
+    "name": "Family Dollar",
+    "opening_hours": { "open_now": false },
+    "photos": [
+      {
+        "height": 2988,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102757989202878151096\">M V</a>"
+        ],
+        "photo_reference": "CmRaAAAAKHHe7_Wn_YuY2IWNlgbn5HutdBxJBY8hsUOoyLixng3aHAsCL0nMNJUBCWoRQISVs7Xz4UmAVeznIeisyixOH_o5Oe5J15Vlu-gDS95e2YVBCFx8xlywRo_kYqdoKGDrEhCfeUtcILyMrvuU6FOHvBODGhR_721W4zP1f_34HWWrfxBulXmEJA",
+        "width": 3984
+      }
+    ],
+    "place_id": "ChIJsY0Fhm4FyIkRtcfn1ddSQek",
+    "plus_code": {
+      "compound_code": "993R+W4 Baltimore, Maryland, United States",
+      "global_code": "87F5993R+W4"
+    },
+    "price_level": 1,
+    "rating": 3.8,
+    "reference": "ChIJsY0Fhm4FyIkRtcfn1ddSQek",
+    "scope": "GOOGLE",
+    "types": [
+      "supermarket",
+      "grocery_or_supermarket",
+      "food",
+      "point_of_interest",
+      "clothing_store",
+      "store",
+      "establishment"
+    ],
+    "user_ratings_total": 148,
+    "vicinity": "5313 York Road, Baltimore"
+  },
+  {
+    "geometry": {
+      "location": { "lat": 39.3139123, "lng": -76.5989376 },
+      "viewport": {
+        "northeast": { "lat": 39.3150999802915, "lng": -76.5974252197085 },
+        "southwest": { "lat": 39.3124020197085, "lng": -76.6001231802915 }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+    "id": "f736642448adbbb4a41f888da5b167426a53a3c1",
+    "name": "Family Dollar",
+    "opening_hours": { "open_now": false },
+    "photos": [
+      {
+        "height": 2322,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114600476504508746987\">Adrian M</a>"
+        ],
+        "photo_reference": "CmRaAAAAwxypFEs659lqLh-3hVZM2hkTaWuSQxNTmZoDVP_BKLhtI4CmLsgZZ7ktaCC53uv_hdDAsJebvUXOQyAk8w8o-yYoDDIxpdDirmOtx8fMr62JzmIlHsaBC-3js8HVvkjYEhD6-QLEY3bPs2b_BtCXU1emGhTTmwo_bSNLA9wkjzM-6X1uzPgcFg",
+        "width": 4128
+      }
+    ],
+    "place_id": "ChIJm4LI5PYEyIkRdif1nv7jHuw",
+    "plus_code": {
+      "compound_code": "8C72+HC Baltimore, Maryland, United States",
+      "global_code": "87F58C72+HC"
+    },
+    "price_level": 1,
+    "rating": 3.6,
+    "reference": "ChIJm4LI5PYEyIkRdif1nv7jHuw",
+    "scope": "GOOGLE",
+    "types": [
+      "supermarket",
+      "grocery_or_supermarket",
+      "food",
+      "point_of_interest",
+      "clothing_store",
+      "store",
+      "establishment"
+    ],
+    "user_ratings_total": 193,
+    "vicinity": "2020 Harford Road, Baltimore"
+  },
+  {
+    "geometry": {
+      "location": { "lat": 39.3353284, "lng": -76.6760077 },
+      "viewport": {
+        "northeast": { "lat": 39.3369141802915, "lng": -76.6741695697085 },
+        "southwest": { "lat": 39.3342162197085, "lng": -76.6768675302915 }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+    "id": "4643d6dfa461f04a3c6c0094dc2b3b7cb4de9e11",
+    "name": "ALDI",
+    "opening_hours": { "open_now": false },
+    "photos": [
+      {
+        "height": 2592,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112225311120783438229\">Jessica Williams</a>"
+        ],
+        "photo_reference": "CmRaAAAAHvAPqJNYyf_I8O8bEbe5E-GQHom_3DfuglKQdAKK4_TbrptN5Tg9qzxryScP2anVvTo0jKz8ocq72Ous4mP3F7Lk-pO3xgwn4YjDthSVLPO8zcGS4TDdugejAf9rGNqlEhB7WefvRlwCGrr1Q8Zqa3u2GhTA3bxUY_KUsY1GS2ItoMW2WZqB1w",
+        "width": 1944
+      }
+    ],
+    "place_id": "ChIJw3NXqOIayIkRE7Zpxo5VslA",
+    "plus_code": {
+      "compound_code": "88PF+4H Baltimore, Maryland, United States",
+      "global_code": "87F588PF+4H"
+    },
+    "price_level": 1,
+    "rating": 4.2,
+    "reference": "ChIJw3NXqOIayIkRE7Zpxo5VslA",
+    "scope": "GOOGLE",
+    "types": [
+      "grocery_or_supermarket",
+      "supermarket",
+      "food",
+      "point_of_interest",
+      "store",
+      "establishment"
+    ],
+    "user_ratings_total": 1100,
+    "vicinity": "3601 West Cold Spring Lane, Baltimore"
+  },
+  {
+    "geometry": {
+      "location": { "lat": 39.29370280000001, "lng": -76.6179397 },
+      "viewport": {
+        "northeast": { "lat": 39.2950338302915, "lng": -76.6167205197085 },
+        "southwest": { "lat": 39.2923358697085, "lng": -76.6194184802915 }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+    "id": "e58d5966eb381cfd87ba9e8136255f2c0264b801",
+    "name": "Po Tung Oriental Grocery",
+    "opening_hours": { "open_now": false },
+    "photos": [
+      {
+        "height": 500,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101523293730959956425\">Dave Cook</a>"
+        ],
+        "photo_reference": "CmRaAAAAzu9c6_1ws2KMNC8JS6VXmxE52q3mqj_7spj468sOUxbQRB69hAf3faJaUWqzTfQkZpVTlURUAsfX9OgPhQe45jOxH5Mg3JqE56B0B4MecK2UsoR5mrTVADGZMkzzKb-xEhD8yX2oUP0y_PH2B982mpBjGhRZeB_xnGrNXdVmcoRis_8850iTCg",
+        "width": 750
+      }
+    ],
+    "place_id": "ChIJdY3Gq5gEyIkRp53a0NgLiy0",
+    "plus_code": {
+      "compound_code": "79VJ+FR Baltimore, Maryland, United States",
+      "global_code": "87F579VJ+FR"
+    },
+    "rating": 4.4,
+    "reference": "ChIJdY3Gq5gEyIkRp53a0NgLiy0",
+    "scope": "GOOGLE",
+    "types": [
+      "supermarket",
+      "grocery_or_supermarket",
+      "food",
+      "point_of_interest",
+      "store",
+      "establishment"
+    ],
+    "user_ratings_total": 135,
+    "vicinity": "321 Park Avenue, Baltimore"
+  },
+  {
+    "geometry": {
+      "location": { "lat": 39.2992261, "lng": -76.61403059999999 },
+      "viewport": {
+        "northeast": { "lat": 39.3005724802915, "lng": -76.61274656970849 },
+        "southwest": { "lat": 39.2978745197085, "lng": -76.61544453029151 }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+    "id": "bc9c6d4c51324b5b01a6dd184d12aef19201e6f0",
+    "name": "St Paul Mini Mart",
+    "opening_hours": { "open_now": false },
+    "photos": [
+      {
+        "height": 2688,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103366728364915988981\">J K</a>"
+        ],
+        "photo_reference": "CmRaAAAA9ci4w8NT_Ju1n6c2yG_RzkQwbQqm-s7Tdic2vfTpu8iTqVjAIJaMbZNM9Y-BElihRNCOlPdiM7jmWiSDunD5MWV2MUG_oxM9DRDW_syunwNUUIocm4wXwzFrXo8-z6qsEhDh1iCHG7ydGq-KbDvXzgrtGhTepH1LEVZ-smgIMj44Y4jPzxo83w",
+        "width": 1512
+      }
+    ],
+    "place_id": "ChIJmYAWa5cEyIkRqmrDwIGzKbg",
+    "plus_code": {
+      "compound_code": "79XP+M9 Baltimore, Maryland, United States",
+      "global_code": "87F579XP+M9"
+    },
+    "rating": 4.4,
+    "reference": "ChIJmYAWa5cEyIkRqmrDwIGzKbg",
+    "scope": "GOOGLE",
+    "types": [
+      "grocery_or_supermarket",
+      "supermarket",
+      "food",
+      "point_of_interest",
+      "store",
+      "establishment"
+    ],
+    "user_ratings_total": 24,
+    "vicinity": "815 Saint Paul Street, Baltimore"
+  }
+]
