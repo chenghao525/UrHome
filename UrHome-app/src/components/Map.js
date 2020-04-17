@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unknown-property */
 import React, { useEffect, useState } from "react";
 import * as mapActions from "../store/actions/map";
 import { useDispatch, useSelector } from "react-redux";
