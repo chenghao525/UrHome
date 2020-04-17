@@ -1,4 +1,4 @@
-import APARTMENTS from "../../data/apartment_data";
+import Apartment_data from "../../data/Apartment_data";
 
 export const SET_APARTMENTS = "SET_APARTMENTS";
 export const SET_NEIGHBORHOODS = "SET_NEIGHBORHOODS";
@@ -33,7 +33,7 @@ export const setApartments = () => {
     //   console.log('response not ok');
     // }
     // const resData = await Response.json();
-    const resData = APARTMENTS;
+    const resData = Apartment_data;
     dispatch({
       type: SET_APARTMENTS,
       apartments: resData,
