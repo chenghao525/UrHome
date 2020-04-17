@@ -23,7 +23,6 @@ import { useDispatch } from "react-redux";
 import * as userActions from "../store/actions/user";
 import { useHistory } from "react-router-dom";
 
-
 const { Title } = Typography;
 
 const { Step } = Steps;
@@ -39,7 +38,7 @@ const App = ({ navigation, route }) => {
   const history = useHistory();
   const [current, setCurrent] = useState(0);
   const [university, setUniversity] = useState("JHU");
-  const [department, setDepartment] = useState("Please select");
+  const [department, setDepartment] = useState("ME");
   const [minutes, setMinutes] = useState(20);
   const [transportationType, setTransportationType] = useState([]);
   const [facilityTypes, setFacilityTypes] = useState([]);
@@ -49,7 +48,7 @@ const App = ({ navigation, route }) => {
     console.log(university, department);
   }, [university, department]);
 
-  const Component1 = () => {
+  function Component1() {
     // const universityOptions = universityList;
     const universityOptions = Object.keys(departmentDict).map((x) => {
       return { value: x };
@@ -77,8 +76,8 @@ const App = ({ navigation, route }) => {
         />
       </div>
     );
-  };
-  const Component2 = () => {
+  }
+  function Component2() {
     var transportationOptions = [
       "Private car",
       "Bike/Scooter",
@@ -115,8 +114,8 @@ const App = ({ navigation, route }) => {
         />
       </div>
     );
-  };
-  const Component3 = () => {
+  }
+  function Component3() {
     var facilitateOptions = [
       "Sports centre",
       "Grocery",
@@ -143,17 +142,17 @@ const App = ({ navigation, route }) => {
         />
       </div>
     );
-  };
+  }
 
   const steps = [<Component1 />, <Component2 />, <Component3 />];
 
-  const next = () => {
+  function next() {
     setCurrent(current + 1);
-  };
+  }
 
-  const prev = () => {
+  function prev() {
     setCurrent(current - 1);
-  };
+  }
 
   // const [university, setUniversity] = useState("JHU");
   // const [department, setDepartment] = useState("Please select");

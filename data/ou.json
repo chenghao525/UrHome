@@ -1,0 +1,210 @@
+[
+  {
+    "type": "Townhouse for rent",
+    "bedsNum": "3bds",
+    "price": 995,
+    "image": "https://photos.zillowstatic.com/p_e/ISr9wklmtkf5du0000000000.jpg",
+    "address": "2945 Walbrook Ave, Baltimore, MD 21216",
+    "location": { "lat": 39.3100106, "lng": -76.667091 }
+  },
+  {
+    "type": "Camden Court",
+    "bedsNum": "Studio",
+    "price": 1195,
+    "image": "https://photos.zillowstatic.com/p_e/ISu8a60d79zfm80000000000.jpg",
+    "address": "300 W Lombard St, Baltimore, MD",
+    "location": { "lat": 39.2877788, "lng": -76.6195615 }
+  },
+  {
+    "type": "Condo for rent",
+    "bedsNum": "3bds",
+    "price": 2400,
+    "image": "https://photos.zillowstatic.com/p_e/IS33jjeyc1mk1o0000000000.jpg",
+    "address": "1817 S Charles St, Baltimore, MD 21230",
+    "location": { "lat": 39.2691026, "lng": -76.6136409 }
+  },
+  {
+    "type": "The McAllister Apartments",
+    "bedsNum": "1bd",
+    "price": 950,
+    "image": "https://photos.zillowstatic.com/p_e/ISjfvd9x54kwqw0000000000.jpg",
+    "address": "317 E North Ave, Baltimore, MD",
+    "location": { "lat": 39.3111006, "lng": -76.6116464 }
+  },
+  {
+    "type": "City View Lofts",
+    "bedsNum": "1bd",
+    "price": 1097,
+    "image": "https://photos.zillowstatic.com/p_e/ISa1beeg01yz890000000000.jpg",
+    "address": "2315 Saint Paul St, Baltimore, MD",
+    "location": { "lat": 39.31614099999999, "lng": -76.614961 }
+  },
+  {
+    "type": "The Mount Royal",
+    "bedsNum": "Studio",
+    "price": 1290,
+    "image": "https://photos.zillowstatic.com/p_e/ISb13cj8d4ylku1000000000.jpg",
+    "address": "103 E Mount Royal Ave, Baltimore, MD",
+    "location": { "lat": 39.3053189, "lng": -76.6136973 }
+  },
+  {
+    "type": "Townhouse for rent",
+    "bedsNum": "2bds",
+    "price": 900,
+    "image": "https://photos.zillowstatic.com/p_e/ISj7tylc1zbqg11000000000.jpg",
+    "address": "1655 Northgate Rd, Baltimore, MD 21218",
+    "location": { "lat": 39.344752, "lng": -76.586896 }
+  },
+  {
+    "type": "For Rent",
+    "bedsNum": "3bds",
+    "price": 2000,
+    "image": "https://photos.zillowstatic.com/p_e/IS7uiklbykdg3c0000000000.jpg",
+    "address": "806 N Broadway, Baltimore, MD",
+    "location": { "lat": 39.2996879, "lng": -76.5946658 }
+  },
+  {
+    "type": "Sail Cloth Factory",
+    "bedsNum": "Studio",
+    "price": 1229,
+    "image": "https://photos.zillowstatic.com/p_e/ISqd70g2knnrvw1000000000.jpg",
+    "address": "121 S Fremont Ave, Baltimore, MD",
+    "location": { "lat": 39.2863915, "lng": -76.6267345 }
+  },
+  {
+    "type": "Flats at Professional Arts Building",
+    "bedsNum": "Studio",
+    "price": 1186,
+    "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "address": "101 W Read St, Baltimore, MD",
+    "location": { "lat": 39.2993978, "lng": -76.6175787 }
+  },
+  {
+    "type": "Union Wharf Apartments",
+    "bedsNum": "Studio",
+    "price": 1951,
+    "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "address": "915 S Wolfe St, Baltimore, MD",
+    "location": { "lat": 39.2813258, "lng": -76.5892618 }
+  },
+  {
+    "type": "Apartment for rent",
+    "bedsNum": "1bd",
+    "price": 1450,
+    "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "address": "1014 N Charles St APT 5, Baltimore, MD 21201",
+    "location": { "lat": 39.3016975, "lng": -76.6163206 }
+  },
+  {
+    "type": "507 N Paca Street",
+    "bedsNum": "1bd",
+    "price": 1050,
+    "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "address": "507 N Paca St, Baltimore, MD",
+    "location": { "lat": 39.2953, "lng": -76.62250159999999 }
+  },
+  {
+    "type": "Apartment for rent",
+    "bedsNum": "1bd",
+    "price": 675,
+    "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "address": "1040 Edmondson Ave, Baltimore, MD 21223",
+    "location": { "lat": 39.29575450000001, "lng": -76.6354613 }
+  },
+  {
+    "type": "Banner Hill",
+    "bedsNum": "1bd",
+    "price": 1628,
+    "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "address": "611 S Charles St, Baltimore, MD",
+    "location": { "lat": 39.281369, "lng": -76.61417999999999 }
+  },
+  {
+    "type": "The Morison",
+    "bedsNum": "Studio",
+    "price": 1179,
+    "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "address": "18 W Madison St, Baltimore, MD",
+    "location": { "lat": 39.2987438, "lng": -76.6169243 }
+  },
+  {
+    "type": "The Woodberry",
+    "bedsNum": "Studio",
+    "price": 1525,
+    "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "address": "2001 W Cold Spring Ln, Baltimore, MD",
+    "location": { "lat": 39.344535, "lng": -76.6495109 }
+  },
+  {
+    "type": "Apartment for rent",
+    "bedsNum": "2bds",
+    "price": 1300,
+    "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "address": "3912 Erdman Ave, Baltimore, MD 21213",
+    "location": { "lat": 39.3146659, "lng": -76.5680021 }
+  },
+  {
+    "type": "Townhouse for rent",
+    "bedsNum": "2bds",
+    "price": 699,
+    "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "address": "3116 Wolcott Ave, Baltimore, MD 21216",
+    "location": { "lat": 39.3228335, "lng": -76.6847336 }
+  },
+  {
+    "type": "Apartment for rent",
+    "bedsNum": "2bds",
+    "price": 1250,
+    "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "address": "104 W 25th St, Baltimore, MD 21218",
+    "location": { "lat": 39.3180162, "lng": -76.6186804 }
+  },
+  {
+    "type": "For Rent",
+    "bedsNum": "1bd",
+    "price": 1050,
+    "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "address": "100 W 25th St, Baltimore, MD",
+    "location": { "lat": 39.3180016, "lng": -76.618515 }
+  },
+  {
+    "type": "Townhouse for rent",
+    "bedsNum": "3bds",
+    "price": 1200,
+    "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "address": "2461 W Cold Spring Ln, Baltimore, MD 21215",
+    "location": { "lat": 39.340505, "lng": -76.66086399999999 }
+  },
+  {
+    "type": "For Rent",
+    "bedsNum": "1bd",
+    "price": 1050,
+    "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "address": "102 W 25th St, Baltimore, MD",
+    "location": { "lat": 39.3180312, "lng": -76.6186328 }
+  },
+  {
+    "type": "House for rent",
+    "bedsNum": "3bds",
+    "price": 1350,
+    "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "address": "2622 Park Heights Ter, Baltimore, MD 21215",
+    "location": { "lat": 39.3385504, "lng": -76.66235859999999 }
+  },
+  {
+    "type": "House for rent",
+    "bedsNum": "3bds",
+    "price": 1150,
+    "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "address": "1908 Barclay St, Baltimore, MD 21218",
+    "location": { "lat": 39.311934, "lng": -76.611232 }
+  },
+  {
+    "type": "Townhouse for rent",
+    "bedsNum": "3bds",
+    "price": 1900,
+    "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "address": "2208 Guilford Ave, Baltimore, MD 21218",
+    "location": { "lat": 39.3148546, "lng": -76.6128961 }
+  }
+]

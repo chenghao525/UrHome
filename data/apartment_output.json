@@ -182,13 +182,6 @@
     "address": "2208 Guilford Ave, Baltimore, MD 21218"
   },
   {
-    "type": "Apartment for rent",
-    "bedsNum": "2bds",
-    "price": 1050,
-    "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-    "address": "242 N Milton Ave #2, Baltimore, MD 21224"
-  },
-  {
     "type": "The Fox Building",
     "bedsNum": "Studio",
     "price": 1484,
@@ -222,13 +215,6 @@
     "price": 1350,
     "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
     "address": "1103 Dundalk Ave, Baltimore, MD 21224"
-  },
-  {
-    "type": "Apartment for rent",
-    "bedsNum": "2bds",
-    "price": 1600,
-    "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-    "address": "2 bed, 840 sqft, $1,600, B"
   },
   {
     "type": "Townhouse for rent",
@@ -1419,13 +1405,6 @@
     "price": 1400,
     "image": "https://photos.zillowstatic.com/p_e/ISb9181tlvij1f0000000000.jpg",
     "address": "3001 Saint Paul St APT 2, Baltimore, MD 21218"
-  },
-  {
-    "type": "Apartment for rent",
-    "bedsNum": "1bd",
-    "price": 800,
-    "image": "https://photos.zillowstatic.com/p_e/ISz78rjmhq9yb00000000000.jpg",
-    "address": "3801 Greenmount Ave #1AB, Baltimore, MD 21218"
   },
   {
     "type": "House for rent",
