@@ -9,6 +9,8 @@ import axios from "axios";
 import ReactDOM from "react-dom";
 import mapboxgl from "mapbox-gl";
 import ReactMapboxGl, { Layer, Feature, Source } from "react-mapbox-gl";
+import Baltimore_Neighbourhoods from "../data/Baltimore_Neighborhoods_data";
+import { GeoJSONLayer } from "react-mapbox-gl";
 
 var accessToken =
   "pk.eyJ1IjoieGlhbmdqdW4iLCJhIjoiY2s4cWpkYWdnMDM3azNtczFkZHhxd2hmZiJ9.dLC65wCHxIk2eKp9nQEE5g";
@@ -193,6 +195,16 @@ const SimpleMap = () => {
             "fill-opacity": 0.3,
           }}
         ></Layer>
+
+        <GeoJSONLayer
+          data={Baltimore_Neighbourhoods}
+          fillLayout={{ visibility: 'visible' }}
+          fillPaint={{
+            'fill-color': '#40f296',
+            'fill-opacity' : 0.2,
+            'fill-outline-color' : 'black'
+          }}
+        />
       </Map>
     </div>
   );
