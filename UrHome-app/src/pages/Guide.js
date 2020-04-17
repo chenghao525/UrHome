@@ -21,6 +21,7 @@ import {
 import departmentDict from "../data/departmentList";
 import { useDispatch } from "react-redux";
 import * as userActions from "../store/actions/user";
+import * as apartmentActions from "../store/actions/apartment";
 import { useHistory } from "react-router-dom";
 
 const { Title } = Typography;
@@ -154,10 +155,6 @@ const App = ({ navigation, route }) => {
     setCurrent(current - 1);
   }
 
-  // const [university, setUniversity] = useState("JHU");
-  // const [department, setDepartment] = useState("Please select");
-  // const [minutes, setMinutes] = useState(20);
-  // const [transportationTypes, setTransportationType] = useState([]);
   const doneButtonOnPressed = async () => {
     message.success("Processing complete!");
     const data = {
@@ -167,6 +164,7 @@ const App = ({ navigation, route }) => {
       transportationType: transportationType,
       facilitiesTypes: facilityTypes,
     };
+    await dispatch()
     await dispatch(userActions.setOptions(data));
     history.push("/main");
   };

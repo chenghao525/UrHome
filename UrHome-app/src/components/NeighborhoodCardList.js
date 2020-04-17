@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import * as mapActions from "../store/actions/map";
-import * as apartmentsAction from "../store/actions/apartments";
+import * as apartmentAction from "../store/actions/apartment";
 
 import "../styles/filterMapPageStyle.css";
 import {
@@ -20,81 +20,118 @@ import {
   EnvironmentFilled,
 } from "@ant-design/icons";
 
-import APARTMENTS from "../data/apartment_data";
+import Apartment_data from "../data/Apartment_data";
 
 const { Content, Footer, Sider } = Layout;
 const { Meta } = Card;
 
 const NeighborhoodCardList = () => {
   const dispatch = useDispatch();
-  const facilities = useSelector((state) => state.map.facilities);
-  const neighborhoods = useSelector((state) => state.map.neighborhoods);
-  // const apartments = useSelector((state) => state.apartments.apartments);
-  const apartments = APARTMENTS;
+  const [visible, setVisible] = useState(true);
+  const [selectedNeighborhood, setSelectedNeighborhood] = useState("Walbrook");
+
+  const neighborhoods = useSelector((state) => state.apartment.neighborhoods);
+  const displayApartments = useSelector((state) => {
+    return state.apartment.apartments.filter(
+      (x) => x.neighborhood === selectedNeighborhood
+    );
+  });
 
   useEffect(() => {
     const fetchData = async () => {
       await dispatch(mapActions.setFacilities());
-      await dispatch(mapActions.setNeighborhoods());
-      // await dispatch(apartmentsAction.setApartments());
+      await dispatch(apartmentAction.setNeighborhoods());
+      await dispatch(apartmentAction.setApartments());
     };
     fetchData();
   }, []);
+
+  // * test
   // useEffect(() => {
   //   console.log(apartments);
   // },[apartments])
 
-  const content = (
-    <div>
-      <p>{apartments[0].type}</p>
-      <p>{apartments[0].bedsNum}</p>
-      <p>{apartments[0].price}</p>
-      <p>{apartments[0].image}</p>
-      <p>{apartments[0].address}</p>
-      {/* <p>{apartments}</p> */}
-    </div>
-  );
-
-  const neighborhoodRenderItem = (item) => (
-    <Popover content={content} title="Title" trigger="click">
-      <Card hoverable className="house-single-card">
-        {/* FIXME: img not showing as expected */}
-        {/* <img
+  const neighborhoodRenderItem = (item) => {
+    const neighborhood = item;
+    function neighborhoodCardOnClick() {
+      setVisible(false);
+      setSelectedNeighborhood(neighborhood.name);
+    }
+    return (
+      // <Popover content={content} title="Title" trigger="click"></Popover>
+      <div onClick={neighborhoodCardOnClick}>
+        <Card hoverable className="house-single-card">
+          {/* FIXME: img not showing as expected */}
+          {/* <img
         className="house-card-img"
         alt="example"
         src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png"
       /> */}
-        <div className="house-card-img-container"></div>
-        <div className="house-card-text-container">
-          <div className="card-title">{item.name}</div>
-          <div className="distance">
-            <CheckOutlined style={{ color: "green", marginRight: "5px" }} />
-            <EnvironmentFilled />
-            15 mins bike
+          <div className="house-card-img-container"></div>
+          <div className="house-card-text-container">
+            <div className="card-title">{neighborhood.name}</div>
+            <div className="distance">
+              <CheckOutlined style={{ color: "green", marginRight: "5px" }} />
+              <EnvironmentFilled />
+              15 mins bike
+            </div>
+            <div className="seleted-criterion">
+              <CheckOutlined style={{ color: "green", marginRight: "5px" }} />
+              Gym
+            </div>
+            <div className="seleted-criterion">
+              <CheckOutlined style={{ color: "green", marginRight: "5px" }} />
+              Coffee Shop
+            </div>
+            <div className="card-more-text">More</div>
           </div>
-          <div className="seleted-criterion">
-            <CheckOutlined style={{ color: "green", marginRight: "5px" }} />
-            Gym
-          </div>
-          <div className="seleted-criterion">
-            <CheckOutlined style={{ color: "green", marginRight: "5px" }} />
-            Coffee Shop
-          </div>
-          <div className="card-more-text">More</div>
-        </div>
-      </Card>
-    </Popover>
-  );
+        </Card>
+      </div>
+    );
+  };
 
+  const apartmentRenderItem = (item) => {
+    const apartment = item;
+    function apartmentCardOnClick() {
+      setVisible(true);
+    }
+    return (
+      // <Popover content={content} title="Title" trigger="click"></Popover>
+      <div onClick={apartmentCardOnClick}>
+        <Card hoverable className="house-single-card">
+          {/* FIXME: img not showing as expected */}
+          {/* <img
+        className="house-card-img"
+        alt="example"
+        src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png"
+      /> */}
+          <div className="house-card-img-container"></div>
+          <div className="house-card-text-container">
+            <div className="card-title">{apartment.type}</div>
+          </div>
+        </Card>
+      </div>
+    );
+  };
   const DisplaySection = () => (
     <div className="house-cards">
-      <List
-        header={<div>Header</div>}
-        footer={<div>Footer</div>}
-        bordered
-        dataSource={neighborhoods}
-        renderItem={neighborhoodRenderItem}
-      />
+      {visible ? (
+        <List
+          header={<div>Header</div>}
+          footer={<div>Footer</div>}
+          bordered
+          dataSource={neighborhoods}
+          renderItem={neighborhoodRenderItem}
+        />
+      ) : (
+        <List
+          header={<div>Header</div>}
+          footer={<div>Footer</div>}
+          bordered
+          dataSource={displayApartments}
+          renderItem={apartmentRenderItem}
+        />
+      )}
     </div>
   );
 

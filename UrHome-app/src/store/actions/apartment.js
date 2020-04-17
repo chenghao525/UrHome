@@ -1,29 +1,14 @@
 import Apartment_data from "../../data/Apartment_data";
+import Neighborhood_data from "../../data/Neighborhood_data";
 
 export const SET_APARTMENTS = "SET_APARTMENTS";
 export const SET_NEIGHBORHOODS = "SET_NEIGHBORHOODS";
 
-// TODO: wait backend to specify this
 // const ServerURL = "http://localhost:8080";
 // const setPacilitiesURL = ServerURL + "/facilities";
 // const setNeighborhoodsURL = ServerURL + "/neighborhoods";
 
 // TODO: read from data
-const dummyNeighborhoods = [{
-  name:'neighborhood1',
-  price:'1200',
-  location:{
-    latitude:'39.3266',
-    longitude:'-76.6205'
-  }
-},{
-  name:'neighborhood2',
-  price:'800',
-  location:{
-    latitude:'39.3366',
-    longitude:'-76.6205'
-  }
-}]
 
 export const setApartments = () => {
   return async (dispatch, getState) => {
@@ -49,7 +34,7 @@ export const setNeighborhoods = () => {
     //   console.log('response not ok');
     // }
     // const resData = await Response.json();
-    const resData = dummyNeighborhoods;
+    const resData = Neighborhood_data;
     dispatch({
       type: SET_NEIGHBORHOODS,
       neighborhoods: resData,
