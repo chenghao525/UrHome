@@ -24,7 +24,7 @@ import * as userActions from "../store/actions/user";
 import * as apartmentActions from "../store/actions/apartment";
 import { useHistory } from "react-router-dom";
 
-const { Title } = Typography;
+const { Title, Text } = Typography;
 
 const { Step } = Steps;
 
@@ -164,7 +164,6 @@ const App = ({ navigation, route }) => {
       transportationType: transportationType,
       facilitiesTypes: facilityTypes,
     };
-    await dispatch()
     await dispatch(userActions.setOptions(data));
     history.push("/main");
   };

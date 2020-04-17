@@ -24,6 +24,7 @@ import Apartment_data from "../data/Apartment_data";
 
 const { Content, Footer, Sider } = Layout;
 const { Meta } = Card;
+const { Title, Text } = Typography;
 
 const NeighborhoodCardList = () => {
   const dispatch = useDispatch();
@@ -61,13 +62,6 @@ const NeighborhoodCardList = () => {
       // <Popover content={content} title="Title" trigger="click"></Popover>
       <div onClick={neighborhoodCardOnClick}>
         <Card hoverable className="house-single-card">
-          {/* FIXME: img not showing as expected */}
-          {/* <img
-        className="house-card-img"
-        alt="example"
-        src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png"
-      /> */}
-          <div className="house-card-img-container"></div>
           <div className="house-card-text-container">
             <div className="card-title">{neighborhood.name}</div>
             <div className="distance">
@@ -92,23 +86,32 @@ const NeighborhoodCardList = () => {
 
   const apartmentRenderItem = (item) => {
     const apartment = item;
+    const imageSrc =
+      apartment.image.substring(0, 4) == "http"
+        ? apartment.image
+        : "https://photos.zillowstatic.com/p_e/ISr9wklmtkf5du0000000000.jpg";
     function apartmentCardOnClick() {
       setVisible(true);
     }
     return (
       // <Popover content={content} title="Title" trigger="click"></Popover>
       <div onClick={apartmentCardOnClick}>
-        <Card hoverable className="house-single-card">
-          {/* FIXME: img not showing as expected */}
-          {/* <img
-        className="house-card-img"
-        alt="example"
-        src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png"
-      /> */}
-          <div className="house-card-img-container"></div>
-          <div className="house-card-text-container">
+        {/* <Card hoverable className="house-single-card"> */}
+          <Card>
+          {/* <div className="house-card-img-container"> */}
+            <img className="house-card-img" alt="example" src={imageSrc} />
+          {/* </div> */}
+          {/* <div className="house-card-text-container"> */}
             <div className="card-title">{apartment.type}</div>
-          </div>
+            <br />
+            <Text>number of beds: {apartment.bedsNum}</Text>
+            <br />
+            <Text>Price:{apartment.price}</Text>
+            <br />
+            <Text>address:{apartment.address}</Text>
+            <br />
+            <Text>location:{apartment.location.lat}</Text>
+          {/* </div> */}
         </Card>
       </div>
     );
